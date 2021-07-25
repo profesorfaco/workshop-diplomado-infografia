@@ -22,4 +22,4 @@ Pendiente
 
 - - - - - - - -
 
-###### [← CLASE PASADA](https://github.com/profesorfaco/infografia/tree/main/clase-6)
+###### [← CLASE PASADA](https://github.com/profesorfaco/infografia/tree/main/clase-6) — [CLASE SIGUIENTE →](https://github.com/profesorfaco/infografia/tree/main/clase-8) 
