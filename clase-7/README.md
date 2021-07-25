@@ -1,4 +1,4 @@
-# Diplomado en Infografía digital: Accesibilidad, usabilidad y rendimiento
+# Infografía digital: Accesibilidad, usabilidad y rendimiento
 
 ### Clase 7 → Martes 26 de octubre, 2021
 
