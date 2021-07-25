@@ -46,7 +46,7 @@ Ahora observemos cómo los elementos estructuran un documento HTML:
 
 En lo recién observado, tenemos:
 
-- Un anuncio `<!doctype html>` de que lo que sigue es un documento HTML en versión 5, así como una banderita en un sandwich puede anunciar la cadena de comida rápida donde se preparó.
+- Un anuncio `<!doctype html>` que sigue un documento HTML en versión 5, así como una banderita en un sandwich puede anunciar la cadena de comida rápida donde se preparó.
 
 - Un elemento `<html lang="es"></html>` que contiene a todo el documento HTML, que será escrito en español
 
@@ -60,11 +60,7 @@ Pero el documento HTML necesita una forma de verse distinta de la definida para 
 
 CSS3 es la versión más reciente de este lenguaje. 
 
-Lo más básico del CSS es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene una o varias declaraciones. 
-
-Cada declaración se compone del par `propiedad: valor`. Cuado son varias declaraciones, corresponde separar una de otra mediante punto y coma `;`. 
-
-Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: 
+Lo más básico del CSS es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene una o varias declaraciones. Cada declaración se compone del par `propiedad: valor`. Cuando son varias declaraciones, corresponde separar una de otra mediante punto y coma: 
 
 ```
 selector{ 
@@ -73,17 +69,82 @@ selector{
 }
 ```
 
-En el selector en la regla CSS indica dónde y cuándo afectar al HTML. Por ejemplo: 
+El selector de cada regla CSS indica dónde y/o cuándo ésta debe afectar al HTML. Por ejemplo: 
 
 ```
-a{color:red;}
+a{
+ color:red;
+}
 
-a[href$=".pdf"]{color:purple;}
+a[href$=".pdf"]{
+ color:purple;
+}
 
-a:hover{color:pink}
+a:hover{
+ color:pink;
+}
 ```
 
-El primero selector indica que se afectará a todo vínculo (`a` de anchor) dándole color rojo. El segundo selector afectará al vínculo (`a` de anchor) dándole un color púrpura si es que su referencia de hipertexto termina en .pdf (`href` de hipertext reference). El tercer selector afecta a todo vínculo (`a` de anchor) dándole un color rosa cuando el mouse se posiciona encima. 
+En el ejemplo, tenemos:
+
+- una primera regla afecta a todo vínculo (`a` de anchor), asignándole un color rojo. 
+
+- una segunda regla afecta al vínculo si es que su referencia de hipertexto termina en .pdf (`href` de hipertext reference), asignándole un color púrpura.
+
+- una tercera regla afecta a todo vínculo cuando el mouse pasa por encima, asignándole un color rosa en ese momento. 
+
+**Ahora, para que el CSS afecte al documento HTML correspondiente, puede incrustarse, importarse o vincularse en la cabeza del mismo documento**:
+
+Cuando se inscrusta, la cabeza del HTML queda así:
+
+```
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  a{
+   color:red;
+  }
+  a[href$=".pdf"]{
+   color:purple;
+  }
+  a:hover{
+   color:pink;
+  }
+ </style>
+ <title>¡Hola Mundo!</title>
+</head>
+```
+
+Cuando se importa:
+
+```
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  @import url('estilo.css');
+ </style>
+ <title>¡Hola Mundo!</title>
+</head>
+```
+
+Y cuando se vincula:
+
+```
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="estilo.css" rel="stylesheet">
+ <title>¡Hola Mundo!</title>
+</head>
+```
+
+Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atributos del HTML, pero esa es una forma poco eficiente porque afecta a un único elemento, el que lo contiene, y por lo mismo no utiliza selector: 
+
+```
+<a href="#" style="color:red">este es un vínculo</a>
+```
 
 - - - - - - - 
 
