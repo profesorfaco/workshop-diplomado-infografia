@@ -1,4 +1,4 @@
-# Diplomado en Infografía digital: Bibliotecas de JavaScript
+# Infografía digital: Bibliotecas de JavaScript
 
 ### Clase 4 → Jueves 14 de octubre, 2021
 
