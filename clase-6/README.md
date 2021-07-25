@@ -1,4 +1,4 @@
-# Diplomado en Infografía digital: Trabajar con datos dinámicos
+# Infografía digital: Trabajar con datos dinámicos
 
 ### Clase 6 → Jueves 21 de octubre, 2021
 
