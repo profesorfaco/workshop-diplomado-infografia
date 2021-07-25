@@ -2,7 +2,7 @@
 
 ### Curso 3 → Infografía Digital
 
-#### Este curso del [Diplomado en Infografía](https://diseno.uc.cl/educacion-continua/diplomados/diplomado-en-infografia/) se compone de 8 clases y 1 taller. Cada clase estará a cargo de [Felipe Cortez](https://faco.cl/profesor/).
+#### El tercer curso del [Diplomado en Infografía](https://diseno.uc.cl/educacion-continua/diplomados/diplomado-en-infografia/) se compone de 8 clases y 1 taller. Cada clase estará a cargo de [Felipe Cortez](https://faco.cl/profesor/).
 
 La clase se dividirá en tres partes:
 
