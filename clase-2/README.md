@@ -1,4 +1,4 @@
-# Diplomado en Infografía digital: HTML, SVG y CSS
+# Infografía digital: HTML, SVG y CSS
 
 ### Clase 2 → Jueves 7 de octubre, 2021
 
