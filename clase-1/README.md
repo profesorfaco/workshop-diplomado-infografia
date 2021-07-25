@@ -10,7 +10,7 @@
 
 HTML5 es la versión más reciente de este lenguaje. 
 
-Lo más básico del HTML es el elemento. Cada elemento de HTML se escribe entre etiquetas: `<etiqueta>contenido</etiqueta>`; habiendo excepciones que no son más que una etiqueta, tales como la imagen (`<br>`), el quiebre de línea (`<br>`), la línea horizontal (`<hr>`) o el metadato (`<meta>`). 
+Lo más básico del HTML es el elemento. Cada elemento de HTML se escribe entre etiquetas: `<etiqueta>contenido</etiqueta>`; habiendo excepciones que no son más que una etiqueta, tales como la imagen (`<img>`), el quiebre de línea (`<br>`), la línea horizontal (`<hr>`) o el metadato (`<meta>`). 
 
 Las etiquetas, sean dos o una, utilizan una [palabra reservada](http://html5doctor.com/element-index/) encerrada por paréntesis angulares de apertura (`<`) y cierre (`>`).
 
