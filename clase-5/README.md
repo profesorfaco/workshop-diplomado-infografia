@@ -1,4 +1,4 @@
-# Diplomado en Infografía digital: Redactar y posicionarse en Web
+# Infografía digital: Redactar y posicionarse en Web
 
 ### Clase 5 → Martes 19 de octubre, 2021
 
