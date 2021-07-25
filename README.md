@@ -18,23 +18,23 @@ El taller será una tutoría grupal, adaptada a los avances en la temática ya e
 
 **Las fechas para clases y taller son las siguientes**:
 
-[Clase 1 → Martes → 05-10-2021](https://github.com/profesorfaco/infografia/clase-1) → HTML y CSS
+[Clase 1 → Martes → 05-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-1) → HTML y CSS
 
-[Clase 2 → Jueves → 07-10-2021](https://github.com/profesorfaco/infografia/clase-2) → HTML, SVG y CSS 
+[Clase 2 → Jueves → 07-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-2) → HTML, SVG y CSS 
 
-[Clase 3 → Martes → 12-10-2021](https://github.com/profesorfaco/infografia/clase-3) → HTML, SVG, CSS y JavaScript
+[Clase 3 → Martes → 12-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-3) → HTML, SVG, CSS y JavaScript
 
-[Clase 4 → Jueves → 14-10-2021](https://github.com/profesorfaco/infografia/clase-4) → Bibliotecas de JavaScript
+[Clase 4 → Jueves → 14-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-4) → Bibliotecas de JavaScript
 
-[Taller → Sábado → 16-10-2021](https://github.com/profesorfaco/infografia/taller) → Taller: Reformulación del impreso para Web
+[Taller → Sábado → 16-10-2021](https://github.com/profesorfaco/infografia/tree/main/taller) → Taller: Reformulación del impreso para Web
 
-[Clase 5 → Martes → 19-10-2021](https://github.com/profesorfaco/infografia/clase-5) → Redactar y posicionarse en Web
+[Clase 5 → Martes → 19-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Redactar y posicionarse en Web
 
-[Clase 6 → Jueves → 21-10-2021](https://github.com/profesorfaco/infografia/clase-6) → Trabajar con datos dinámicos
+[Clase 6 → Jueves → 21-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Trabajar con datos dinámicos
 
-[Clase 7 → Martes → 26-10-2021](https://github.com/profesorfaco/infografia/clase-7) → Accesibilidad, usabilidad y rendimiento.
+[Clase 7 → Martes → 26-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-7) → Accesibilidad, usabilidad y rendimiento.
 
-[Clase 8 → Jueves → 28-10-2021](https://github.com/profesorfaco/infografia/clase-8) → Entrega final
+[Clase 8 → Jueves → 28-10-2021](https://github.com/profesorfaco/infografia/tree/main/clase-8) → Entrega final
 
 - - - - - - - - - - - - 
 
@@ -62,7 +62,7 @@ La calificación del curso se basa en:
 
 - **Aplicación** → Entre las clases 1 y 7. Puntaje acumulativo que se transforma en nota equivalente al 20% de la calificación final. 
 
-- **Entrega final** → A presentarse en la [clase 8](https://github.com/profesorfaco/dno075-2021/tree/main/clase-11). Equivale al 80% de la calificación final.
+- **Entrega final** → A presentarse en la [clase 8](https://github.com/profesorfaco/infografia/tree/main/clase-8). Equivale al 80% de la calificación final.
 
 - - - - - - - - - - - - 
 
