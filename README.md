@@ -1,4 +1,4 @@
-# Diplomado en Infografía | Educación Continua | Diseño UC
+# Diplomado en Infografía
 
 ### Curso 3 → Infografía Digital
 
