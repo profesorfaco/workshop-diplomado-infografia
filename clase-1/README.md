@@ -1,4 +1,4 @@
-# Diplomado en Infografía digital: HTML y CSS
+# Infografía digital: HTML y CSS
 
 ### Clase 1 → Martes 5 de octubre, 2021
 
