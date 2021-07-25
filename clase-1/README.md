@@ -143,7 +143,7 @@ Y cuando se vincula:
 Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atributos del HTML, pero esa es una forma poco eficiente porque afecta a un único elemento, el que lo contiene, y por lo mismo no utiliza selector: 
 
 ```
-<a href="#" style="color:red">este es un vínculo</a>
+<a href="https://github.com/profesorfaco/infografia" style="color:red">este es un vínculo</a>
 ```
 
 - - - - - - - 
