@@ -166,7 +166,7 @@ Nos quedaremos con el primero de los mencionados, [Bootstrap](https://getbootstr
 
 - [Notificaciones emergentes](https://getbootstrap.com/docs/5.0/components/toasts/)
 
-Aparte de los componentes, conviene relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), una lógica que se puede adaptar a distintos tamaños de pantalla.
+Aparte de los componentes, conviene relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), una lógica con la que Bootstrap se puede adaptar a distintos tamaños de pantalla.
 
 Digamos que en este contenedor (`container`) quiero dividir la fila (`row`) en dos partes del mismo ancho, para que una se muestre al lado de la otra. Para lograrlo debo tomar 6 y 6 columnas (`col`). Dentro del cuerpo del documento HTML, esto se vería así:
 
