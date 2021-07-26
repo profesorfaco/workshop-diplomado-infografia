@@ -220,7 +220,7 @@ Podríamos necesitar una imagen a todo lo ancho de la fila dentro del contenedor
 </html>
 ```
 
-Con este código del documento completo vamos a pasar a un programa de edición de código fuente, y adelantar un paso de la aplicación.
+Una vez leído el código del documento completo en el ejemplo recién presentado, ppodemos pasar a la aplicación, donde se sumarán más elementos con clases y propiedades predefinidas con Bootstrap.
 
 - - - - - - - 
 
