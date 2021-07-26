@@ -166,7 +166,7 @@ Nos quedaremos con el primero de los mencionados, [Bootstrap](https://getbootstr
 
 - [Notificaciones emergentes](https://getbootstrap.com/docs/5.0/components/toasts/)
 
-Aparte de los componentes, conviene relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), una lógica con la que Bootstrap se puede adaptar a distintos tamaños de pantalla.
+Aparte de los componentes, conviene relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), una lógica con la que [Bootstrap](https://getbootstrap.com/) se adapta a distintos tamaños de pantalla.
 
 Digamos que en este contenedor (`container`) quiero dividir la fila (`row`) en dos partes del mismo ancho, para que una se muestre al lado de la otra. Para lograrlo debo tomar 6 y 6 columnas (`col`). Dentro del cuerpo del documento HTML, esto se vería así:
 
@@ -212,7 +212,7 @@ Podríamos necesitar una imagen a todo lo ancho de la fila dentro del contenedor
      <img src="https://picsum.photos/1600/900?grayscale" class="w-100 my-4" alt="esta es una imagen random">
     </div>
     <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in molestie felis, eget egestas lacus. Etiam orci magna, dignissim at dolor eu, finibus molestie mi. Suspendisse fringilla sem magna, eget pharetra orci faucibus sit amet. Praesent eget sem in dolor aliquam egestas et et magna. Vestibulum dictum est vel nibh lobortis aliquam. Integer volutpat est quis enim hendrerit vestibulum. Proin interdum dapibus elit non feugiat. Duis vel nibh vitae ligula scelerisque lacinia at eu erat. Curabitur non rutrum est. Integer eu ultricies lacus, vitae vestibulum nunc. Donec tortor magna, mattis in porta cursus, consectetur sit amet mi. Proin non commodo quam. Vestibulum mollis imperdiet faucibus. Curabitur placerat lectus a libero consequat molestie.</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in molestie felis, eget egestas lacus. Etiam orci magna, dignissim at dolor eu, finibus molestie mi. Suspendisse fringilla sem magna, eget pharetra orci faucibus sit amet.</p>
     </div>
    </div>
   </div>    
@@ -220,7 +220,7 @@ Podríamos necesitar una imagen a todo lo ancho de la fila dentro del contenedor
 </html>
 ```
 
-Una vez leído el código del documento completo en el ejemplo recién presentado, ppodemos pasar a la aplicación, donde se sumarán más elementos con clases y propiedades predefinidas con Bootstrap.
+Una vez leído y comprendido el código en el ejemplo recién presentado, se puede pasar a la aplicación, donde se sumarán más elementos con clases y propiedades predefinidas con Bootstrap.
 
 - - - - - - - 
 
