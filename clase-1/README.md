@@ -4,7 +4,7 @@
 
 - - - - - - - 
 
-### Presentación
+## Presentación
  
 **HTML (HyperText Markup Language) es un lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página)**. 
 
@@ -140,7 +140,7 @@ Y cuando se vincula:
 </head>
 ```
 
-Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atributos del HTML, pero esa es una forma poco eficiente porque afecta a un único elemento, el que lo contiene, y por lo mismo no utiliza selector: 
+Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atributos del HTML, pero esa es una forma poco eficiente porque afecta a un único elemento, el que lo contiene, y por lo mismo no utiliza selector ni paréntesis de llave, sólo usa el o los pares `propiedad: valor`.  
 
 ```
 <a href="https://github.com/profesorfaco/infografia" style="color:red">este es un vínculo</a>
@@ -148,9 +148,9 @@ Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atri
 
 - - - - - - - 
 
-#### Exploración
+## Exploración
 
-Existen marcos de trabajo de código abierto que nos pueden ayudar a avanzar más rápido desde relaciones predefinidas de HTML y CSS. Por su popularidad, corresponde mencionar a:
+**Existen marcos de trabajo de código abierto que nos pueden ayudar a avanzar más rápido desde relaciones predefinidas de HTML y CSS**. Por su popularidad, corresponde mencionar a:
 
 - [Bootstrap](https://getbootstrap.com/): *The world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.*
 
@@ -224,7 +224,7 @@ Con este código del documento completo vamos a pasar a un programa de edición 
 
 - - - - - - - 
 
-#### Aplicación
+## Aplicación
 
 Pendiente
 
