@@ -236,7 +236,7 @@ Notarán que:
 
 - se usan imágenes específicas de [Loren Picsum](https://picsum.photos/images)
 
-Aprovechando el mismo recurso de imágenes, seleccione algunas que le permitan [la redacción linear](https://youtu.be/iEB3oILm-qQ?t=2010) de una historia realista, esto es: escribir y mostrar vertcalmente una historia que podría ser cierta.
+Aprovechando el mismo recurso de imágenes, seleccione tres que le permitan [la redacción linear](https://youtu.be/iEB3oILm-qQ?t=2010) de una historia realista, esto es: escribir y mostrar verticalmente una historia que podría ser cierta (sin que, necesariamente, lo sea).
 
 - - - - - - - 
 
