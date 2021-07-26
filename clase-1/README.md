@@ -19,7 +19,7 @@ En la primera o única etiqueta que conforma el elemento, antes que se cierre el
 En algunos casos el atributo aporta información adicional, como en un párrafo (`p`) con un atributo de clase (`class`) especial:
 
 ```
-<p class="especial">Este es un párrafo</p>
+<p class="especial">Este es un párrafo especial</p>
 ```
 
 Pero en otros casos el atributo aporta información clave, como en la definción del recurso (`scr`) que se despliega como imagen (`img`):
@@ -150,7 +150,77 @@ Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atri
 
 #### Exploración
 
-Pendiente
+Existen marcos de trabajo de código abierto que nos pueden ayudar a avanzar más rápido desde relaciones predefinidas de HTML y CSS. Por su popularidad, corresponde mencionar a:
+
+- [Bootstrap](https://getbootstrap.com/): *The world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.*
+
+- [Foundations](https://get.foundation/): *The most advanced responsive front-end framework in the world* 
+
+- [Semantic UI](https://semantic-ui.com/): *A development framework that helps create beautiful, responsive layouts using human-friendly HTML*
+
+Nos quedaremos con el primero de los mencionados, [Bootstrap](https://getbootstrap.com/). Veamos cómo las relaciones predefinidas de HTML y CSS se concretan en componentes bien documentados:
+
+- [Botones](https://getbootstrap.com/docs/5.0/components/buttons/)
+
+- [Pase de diapositivas tipo carrusel](https://getbootstrap.com/docs/5.0/components/carousel/)
+
+- [Notificaciones emergentes](https://getbootstrap.com/docs/5.0/components/toasts/)
+
+Aparte de los componentes, conviene relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), una lógica que se puede adaptar a distintos tamaños de pantalla.
+
+Digamos que en este contenedor (`container`) quiero dividir la fila (`row`) en dos partes del mismo ancho, para que una se muestre al lado de la otra. Para lograrlo debo tomar 6 y 6 columnas (`col`). Dentro del cuerpo del documento HTML, esto se vería así:
+
+```
+<div class="container">
+ <div class="row">
+  <div class="col-6">Primera división</div>
+  <div class="col-6">Segunda división</div>
+ </div>
+</div>
+```
+
+Ahora, quiero hacer la misma división pero sólo desde una pantalla mediana ([mayor a 768px de ancho](https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints)). En las pantallas que tengan un ancho menor, ambas divisiones ocuparán todo el ancho, poniéndose la segunda debajo de la primera:
+
+```
+<div class="container">
+ <div class="row">
+  <div class="col-md-6">Primera división</div>
+  <div class="col-md-6">Segunda división</div>
+ </div>
+</div>
+```
+
+Cambiemos de ejemplo, considerando que Robert Bringhurst (2008) escribe:
+
+>> La cantidad que se considera satisfactoria como longitud de línea para una página de una sola columna compuesta en una fuente con remates va entre 45 u 75 caracteres. La línea de 66 caracteres (contando tanto las letras como los espacios en blanco) se considera ideal. Para un trabajo de varias columnas, 40 a 50 caracteres es un buen promedio.
+
+Podríamos necesitar una imagen a todo lo ancho de la fila dentro del contenedor, y bajo ella un párrafo centrado que utilice menos columnas en la medida que éstas se ensanchan junto a la pantalla, así mantener una anchura de párrafo cómoda a la lectura. El código del documento completo debería verse así:
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hola mundo</title>
+  </head>
+  <body>
+  <div class="container">
+   <div class="row">
+    <div class="col-12">
+     <img src="https://picsum.photos/1600/900?grayscale" class="w-100 my-4" alt="esta es una imagen random">
+    </div>
+    <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in molestie felis, eget egestas lacus. Etiam orci magna, dignissim at dolor eu, finibus molestie mi. Suspendisse fringilla sem magna, eget pharetra orci faucibus sit amet. Praesent eget sem in dolor aliquam egestas et et magna. Vestibulum dictum est vel nibh lobortis aliquam. Integer volutpat est quis enim hendrerit vestibulum. Proin interdum dapibus elit non feugiat. Duis vel nibh vitae ligula scelerisque lacinia at eu erat. Curabitur non rutrum est. Integer eu ultricies lacus, vitae vestibulum nunc. Donec tortor magna, mattis in porta cursus, consectetur sit amet mi. Proin non commodo quam. Vestibulum mollis imperdiet faucibus. Curabitur placerat lectus a libero consequat molestie.</p>
+    </div>
+   </div>
+  </div>    
+  </body>
+</html>
+```
+
+Con este código del documento completo vamos a pasar a un programa de edición de código fuente, y adelantar un paso de la aplicación.
 
 - - - - - - - 
 
