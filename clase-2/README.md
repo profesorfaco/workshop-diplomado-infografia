@@ -8,7 +8,9 @@
 
 Ya aprendimos que **HTML (HyperText Markup Language) es un lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página)**. Este se complementa con otro lenguaje estándar, el **CSS (Cascading Style Sheets) que describe la presentación de las páginas web (cómo se muestra lo que contiene la página)**. 
 
-Ahora corresponde aprender sobre un "primo hermano" del HTML, el **SVG (Scalable Vector Graphics)** que es un lenguaje estándar, basado en [XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language), que describe gráficos vectoriales. Esta descripción se basa en las formas que lo componen, sus atributos y transformaciones. Nos referimos a formas tales como lineas simples, líneas quebradas, círculos, elipses, rectángulos, polígonos simples y trazados complejos, que respectivamente se describe con las etiquetas:
+Ahora corresponde aprender sobre "primo hermano" del HTML: El **SVG (Scalable Vector Graphics)**. Con este lenguaje se describen gráficos vectoriales (qué formas los componen y cuáles son sus atributos). 
+
+En los gráficos vectoriales podemos encontrarnos con lineas rectas, líneas quebradas, círculos, elipses, rectángulos, polígonos simples y trazados complejos, formas que serán descritas con los atributos correspondientes a su geometría:
 
 ```
 <line x1="0" y1="0" x2="200" y2="200" />
@@ -25,6 +27,18 @@ Ahora corresponde aprender sobre un "primo hermano" del HTML, el **SVG (Scalable
 
 <path d="M150 0 L75 200 L225 200 Z" />
 ```
+
+Estas formas también pueden ser afectas mediante CSS, con propiedades particulares, distintas de las que afectan al hipertexto (del HTML), así, por ejemplo, podría agregar la clase `enrojecido` como atributo en un círculo, y este se pintaría de rojo con un borde negro de 1 pixel de ancho. 
+
+```
+.enrojecido{
+  fill: red;
+  stroke:black;
+  stroke-width:1px;
+}
+```
+
+No confundamos las propiedades `fill` y `stroke` con `color` y `border`; las dos primeras pueden afectar al SVG, mientras que las dos últimas pueden afectar al HTML.
 
 Los gráficos descritos por SVG pueden escalar para ajustarse a diferentes resoluciones de pantalla, sin pérdida de resolución, y se pueden incluir en una página web de manera directa (como código SVG) o vinculada (como documento SVG).
 
@@ -52,7 +66,7 @@ Un tercer ejemplo:
 <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40'/%3E%3C/svg%3E">
 ```
 
-El tercer ejemplo toma algo de los dos anteriores. Se trata de un elemento HTML `<img>` cuyo atributo no va por un recurso independiente, sino que aprovecha su propia data (que es código SVG con un ajuste en los signos `<` y `>`).
+El tercer ejemplo toma algo de los dos anteriores. Se trata de un elemento HTML `<img>` cuyo atributo de recurso (`src`) no va por un archivo independiente, sino que aprovecha su propia data (que es código SVG con un ajuste en las comillas, siempre simples entre dobles, y los signos `<` y `>`, que son reemplazados por`%3C` y `%3E` respectivamente).
 
 - - - - - - - 
 
