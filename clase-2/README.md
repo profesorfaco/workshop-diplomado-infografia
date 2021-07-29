@@ -139,7 +139,17 @@ Para esto último, se necesita un Codificador SVG a Base64, tal como:
 
 ## Aplicación
 
-Pendiente.
+Como en la clase recién pasada, vamos a tomar el código fuente de la página https://profesorfaco.github.io/infografia/clase-2/
+
+Notarán que: 
+
+- se indican tres niveles de título
+
+- se rellena con [Loren Ipsum](https://www.lipsum.com/)
+
+- se usan dos SVG.
+
+Aprovechando el mismo recurso de imagen de fondo en el SVG, proponga [la redacción linear](https://youtu.be/iEB3oILm-qQ?t=2010) de una historia realista, esto es: escribir y mostrar verticalmente una historia que podría ser cierta (sin que, necesariamente, lo sea).
 
 - - - - - - - -
 
