@@ -1,6 +1,6 @@
 # Infografía digital: HTML y CSS
 
-### Clase 1 → Martes 5 de octubre, 2021
+### Clase 1 → Martes 16 de noviembre, 2021
 
 - - - - - - - 
 
