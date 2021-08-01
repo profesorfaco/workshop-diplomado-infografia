@@ -1,6 +1,6 @@
 # Infografía digital: Accesibilidad, usabilidad y rendimiento
 
-### Clase 7 → Martes 26 de octubre, 2021
+### Clase 7 → Martes 7 de diciembre, 2021
 
 - - - - - - - 
 
