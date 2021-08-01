@@ -1,6 +1,6 @@
 # Diplomado en Infografía digital: Entrega final
 
-### Clase 8 → Jueves 28 de octubre, 2021
+### Clase 8 → Jueves 9 de diciembre, 2021
 
 - - - - - - - 
 
