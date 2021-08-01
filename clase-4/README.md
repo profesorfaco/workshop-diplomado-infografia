@@ -1,6 +1,6 @@
 # Infografía digital: Bibliotecas de JavaScript
 
-### Clase 4 → Jueves 14 de octubre, 2021
+### Clase 4 → Jueves 25 de noviembre, 2021
 
 - - - - - - - 
 
