@@ -1,6 +1,6 @@
 # Infografía digital: Redactar y posicionarse en Web
 
-### Clase 5 → Martes 30 de noviembre, 2021
+### Clase 5 → 04-12-2021
 
 
 - - - - - - - 
