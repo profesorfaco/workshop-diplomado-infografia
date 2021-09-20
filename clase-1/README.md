@@ -1,4 +1,4 @@
-# Infografía digital: HTML y CSS
+# HTML y CSS
 
 ### Clase 1 → 18-11-2021
 
