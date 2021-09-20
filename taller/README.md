@@ -1,6 +1,6 @@
 # Taller: Reformulación del impreso para Web
 
-### Taller → Sábado 27 de noviembre, 2021
+### Taller → 27-11-2021
 
 
 - - - - - - - 
