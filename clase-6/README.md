@@ -1,6 +1,6 @@
 # Infografía digital: Trabajar con datos dinámicos
 
-### Clase 6 → Jueves 4 de diciembre, 2021
+### Clase 6 → 07-12-2021
 
 - - - - - - - 
 
