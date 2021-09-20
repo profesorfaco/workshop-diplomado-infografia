@@ -28,9 +28,7 @@ El taller será una tutoría grupal, adaptada a los avances en la temática ya e
 
 [Taller → 27-11-2021](https://github.com/profesorfaco/infografia/tree/main/taller) → Taller: Reformulación del impreso para Web
 
-[Clase 5 → 04-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Redactar y posicionarse en Web
-
-[Clase 6 → 07-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Accesibilidad, usabilidad y rendimiento
+[Clase 5 → 04-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Accesibilidad, usabilidad y rendimiento
 
 - - - - - - - - - - - - 
 
