@@ -30,7 +30,7 @@ El taller será una tutoría grupal, adaptada a los avances en la temática ya e
 
 [Clase 5 → 04-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Accesibilidad, usabilidad y rendimiento
 
-[Clase 6 → 14-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Revisión de avance
+[Clase 6 → 14-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Revisión de avance
 
 - - - - - - - - - - - - 
 
