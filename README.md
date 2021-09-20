@@ -18,17 +18,19 @@ El taller será una tutoría grupal, adaptada a los avances en la temática ya e
 
 **Las fechas para clases y taller son las siguientes**:
 
-[Clase 1 → 16-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-1) → HTML y CSS
+[Clase 1 → 18-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-1) → HTML y CSS
 
-[Clase 2 → 18-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-2) → HTML, SVG y CSS 
+[Clase 2 → 23-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-2) → HTML, SVG y CSS 
 
-[Clase 3 → 23-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-3) → HTML, SVG, CSS y JavaScript
-
-[Clase 4 → 25-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-4) → JavaScript: Datos y bibliotecas
+[Clase 3 → 25-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-3) → HTML, SVG, CSS y JavaScript
 
 [Taller → 27-11-2021](https://github.com/profesorfaco/infografia/tree/main/taller) → Taller: Reformulación del impreso para Web
 
+[Clase 4 → 30-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-4) → JavaScript: Datos y bibliotecas
+
 [Clase 5 → 04-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Accesibilidad, usabilidad y rendimiento
+
+[Clase 6 → 14-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Revisión de avance
 
 - - - - - - - - - - - - 
 
