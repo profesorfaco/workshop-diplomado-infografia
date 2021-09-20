@@ -18,23 +18,19 @@ El taller será una tutoría grupal, adaptada a los avances en la temática ya e
 
 **Las fechas para clases y taller son las siguientes**:
 
-[Clase 1 → Martes → 16-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-1) → HTML y CSS
+[Clase 1 → 16-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-1) → HTML y CSS
 
-[Clase 2 → Jueves → 18-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-2) → HTML, SVG y CSS 
+[Clase 2 → 18-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-2) → HTML, SVG y CSS 
 
-[Clase 3 → Martes → 23-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-3) → HTML, SVG, CSS y JavaScript
+[Clase 3 → 23-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-3) → HTML, SVG, CSS y JavaScript
 
-[Clase 4 → Jueves → 25-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-4) → Bibliotecas de JavaScript
+[Clase 4 → 25-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-4) → JavaScript: Datos y bibliotecas
 
-[Taller → Sábado → 27-11-2021](https://github.com/profesorfaco/infografia/tree/main/taller) → Taller: Reformulación del impreso para Web
+[Taller → 27-11-2021](https://github.com/profesorfaco/infografia/tree/main/taller) → Taller: Reformulación del impreso para Web
 
-[Clase 5 → Martes → 30-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Redactar y posicionarse en Web
+[Clase 5 → 04-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Redactar y posicionarse en Web
 
-[Clase 6 → Jueves → 04-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Trabajar con datos dinámicos
-
-[Clase 7 → Martes → 07-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-7) → Accesibilidad, usabilidad y rendimiento.
-
-[Clase 8 → Jueves → 09-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-8) → Entrega final
+[Clase 6 → 07-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Accesibilidad, usabilidad y rendimiento
 
 - - - - - - - - - - - - 
 
@@ -53,16 +49,6 @@ Cada estudiante debería contar con:
 - Editor de gráficos vectoriales ([Adobe Illustrator](https://www.adobe.com/la/products/illustrator.html), [InkScape](https://inkscape.org/es/) o [Boxy SVG](https://boxy-svg.com/))
 
 Como grupo pueden crear una [Organización en GitHub](https://docs.github.com/es/enterprise-server@3.0/insights/installing-and-configuring-github-insights/managing-data-in-github-insights/managing-organizations), así podrían enfrentar los desafíos de aplicación de manera conjunta, participar del taller y resolver su entrega final.
-
-- - - - - - - - - - - - 
-
-### Evaluación
-
-La calificación del curso se basa en:
-
-- **Aplicación** → Entre las clases 1 y 7. Puntaje acumulativo que se transforma en nota equivalente al 20% de la calificación final. 
-
-- **Entrega final** → A presentarse en la [clase 8](https://github.com/profesorfaco/infografia/tree/main/clase-8). Equivale al 80% de la calificación final.
 
 - - - - - - - - - - - - 
 
