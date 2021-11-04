@@ -77,5 +77,3 @@ Como grupo pueden crear una [Organización en GitHub](https://docs.github.com/es
 - Tecnología para desarrolladores web | MDN | [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - Tecnología para desarrolladores web | MDN | [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - Tecnología para desarrolladores web | MDN | [SVG](https://developer.mozilla.org/es/docs/Web/SVG)
-- [Wiki del curso en GitHub](#)
-
