@@ -1,4 +1,4 @@
-# Infografía digital: Trabajar con datos dinámicos
+# Infografía digital: Revisión de avance
 
 ### Clase 6 → 07-12-2021
 
