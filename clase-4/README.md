@@ -1,4 +1,4 @@
-# Infografía digital: Bibliotecas de JavaScript
+# JavaScript: Datos y bibliotecas
 
 ### Clase 4 → 30-11-2021
 
