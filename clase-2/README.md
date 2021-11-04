@@ -1,4 +1,4 @@
-# Infografía digital: HTML, SVG y CSS
+# HTML, SVG y CSS
 
 ### Clase 2 → 23-11-2021
 
