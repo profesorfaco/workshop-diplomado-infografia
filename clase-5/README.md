@@ -1,4 +1,4 @@
-# Infografía digital: Redactar y posicionarse en Web
+# Infografía digital: Accesibilidad, usabilidad y rendimiento
 
 ### Clase 5 → 04-12-2021
 
