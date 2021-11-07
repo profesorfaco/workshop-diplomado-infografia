@@ -6,27 +6,29 @@
 
 ## Presentación
  
-**HTML (HyperText Markup Language) es un lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página)**. 
+**HTML (HyperText Markup Language) es un lenguaje estándar que describe la estructura de cada página web**. 
 
-HTML5 es la versión más reciente de este lenguaje. 
+HTML5 es la versión más reciente de este lenguaje. Lo más básico del HTML es el elemento. 
 
-Lo más básico del HTML es el elemento. Cada elemento de HTML se escribe entre etiquetas: `<etiqueta>contenido</etiqueta>`; habiendo excepciones que no son más que una etiqueta, tales como la imagen (`<img>`), el quiebre de línea (`<br>`), la línea horizontal (`<hr>`) o el metadato (`<meta>`). 
+Cada elemento de HTML se escribe entre etiquetas: `<etiqueta>contenido</etiqueta>`; habiendo excepciones que no son más que una etiqueta, tales como la imagen (`<img>`), el quiebre de línea (`<br>`), la línea horizontal (`<hr>`) o el metadato (`<meta>`). 
 
 Las etiquetas utilizan "[palabras reservadas](http://html5doctor.com/element-index/)" entre paréntesis angulares de apertura (`<`) y cierre (`>`).
 
 En la primera o única etiqueta que conforma el elemento, antes que se cierre el paréntesis angular (`>`), se pueden agregar atributos que contienen información  acerca del elemento. 
 
-En algunos casos el atributo aporta información adicional, como en un párrafo (`p`) con un atributo de clase (`class`) especial:
+En algunos casos el atributo aporta información indispensable, como en la definción del recurso (`scr`) que se despliega como imagen (`img`):
+
+```
+<img src="foto.jpg" alt="describe la foto">
+```
+
+En otros casos el atributo aporta información adicional, como en un párrafo (`p`) con un atributo de clase (`class`):
 
 ```
 <p class="especial">Este es un párrafo especial</p>
 ```
 
-Pero en otros casos el atributo aporta información clave, como en la definción del recurso (`scr`) que se despliega como imagen (`img`):
-
-```
-<img src="foto.jpg" alt="describe la foto">
-```
+- - - - - - - -- 
 
 Ahora observemos cómo los elementos estructuran un documento HTML:
 
@@ -46,13 +48,15 @@ Ahora observemos cómo los elementos estructuran un documento HTML:
 
 En lo recién observado, tenemos:
 
-- Un anuncio `<!doctype html>` que sigue un documento HTML en versión 5, así como una banderita en un sandwich puede anunciar la cadena de comida rápida donde se preparó.
+- Un anuncio `<!doctype html>` que nos indica que las líneas que siguen son las de un documento HTML en versión 5; así como una banderita en un sandwich puede anunciar la cadena de comida rápida donde se preparó.
 
-- Un elemento `<html lang="es"></html>` que contiene a todo el documento HTML, que será escrito en español
+- Un elemento `<html lang="es"></html>` que contiene a todo el documento HTML, que será escrito en español; este sería el pan del sandwich.
 
-- Un elemento `<head></head`> que contiene indicaciones que describen y complementan lo que se mostrará en la ventana del navegador.
+- Un elemento `<head></head`> que contiene indicaciones que describen y complementan lo que se mostrará en la ventana del navegador
 
 - Un elemento `<body></body>` que contiene todo lo que se podría mostrar en la ventana del navegador.
+
+- - - - - - - 
 
 Pero el documento HTML necesita una forma de verse distinta de la definida para el intercambio de trabajo científico en la Organización Europea para la Investigación Nuclear de 1989 (fondo blanco, letras negras, tipografía con serifa en tamaños predefinidos y vínculos subryados en azul cuando aún no han sido visitados). Para ello se complementa con CSS.
 
