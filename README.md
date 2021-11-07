@@ -34,7 +34,7 @@ Para cada clase necesitaremos:
 
 - Conexión estable a Internet 
 
-- Cuenta persona en [GitHub](https://github.com/join), donde podrán crear [repositorios](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories) y [organizaciones](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/about-organizations)
+- Cuenta en [GitHub](https://github.com/join), con la que podrán crear [repositorios](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories) y [organizaciones](https://docs.github.com/es/organizations/collaborating-with-groups-in-organizations/about-organizations)
 
 - Computador con:
 
