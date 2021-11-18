@@ -70,7 +70,7 @@ Podemos ver aquellas partes que conforman tal HTML, gracias a las instrucciones 
 
 - http://infografias.elmercurio.com/footer/footer.html
 
-**Y podemos saltar al otro lado del mundo, para echarle un vistazo al código fuente de un par de páginas del South China Morning Post**
+**Y podemos saltar al otro lado del mundo, para echarle un vistazo al código fuente de un par de páginas del South China Morning Post:**
 
 - https://multimedia.scmp.com/infographics/news/hong-kong/article/3022630/hong-kong-airport-protest/
 
