@@ -104,7 +104,7 @@ En lo recién observado, tenemos:
 
 - Un elemento `<html lang="es"></html>` que contiene a todo el documento HTML, que será escrito en español; este sería el pan del sandwich.
 
-- Un elemento `<head></head`> que contiene indicaciones que describen y complementan lo que se mostrará en la ventana del navegador
+- Un elemento `<head></head>` que contiene indicaciones que describen y complementan lo que se mostrará en la ventana del navegador
 
 - Un elemento `<body></body>` que contiene todo lo que se podría mostrar en la ventana del navegador.
 
