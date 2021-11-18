@@ -68,6 +68,7 @@ Para cada clase necesitaremos:
 - [From Data to Vis](https://www.data-to-viz.com/)
 - [JavaScript Para Gatos](https://jsparagatos.com/)
 - [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
+- [RAWGraphs 2.0](https://app.rawgraphs.io/)
 - Tecnología para desarrolladores web | MDN | [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - Tecnología para desarrolladores web | MDN | [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - Tecnología para desarrolladores web | MDN | [SVG](https://developer.mozilla.org/es/docs/Web/SVG)
