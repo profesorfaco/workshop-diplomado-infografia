@@ -234,11 +234,11 @@ Vamos a tomar el código fuente de la página https://profesorfaco.github.io/inf
 
 Notarán que: 
 
-- se indican tres niveles de título
+- se indican varios niveles de título, pero se usa una única vez el `h1`
 
 - se rellena con [Loren Ipsum](https://www.lipsum.com/)
 
-- se usan imágenes específicas de [Loren Picsum](https://picsum.photos/images)
+- se usan imágenes de relleno, que ustedes podrían cambiar con sus bocetos (dejándolas con un nombre sin tildes, acentos ni espacios, y un peso bajo los 250kb con Photoshop, [Squoosh](https://squoosh.app/) o [TinyPNG](https://tinypng.com/))
 
 Aprovechando el mismo recurso de imágenes, o utilizando imágenes de su propiedad, proponga [la redacción linear](https://youtu.be/iEB3oILm-qQ?t=2010) de una historia realista, esto es: escribir y mostrar verticalmente una historia que podría ser cierta (sin que, necesariamente, lo sea).
 
