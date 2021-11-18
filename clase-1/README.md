@@ -19,18 +19,68 @@ En la primera o única etiqueta que conforma el elemento, antes que se cierre el
 En algunos casos el atributo aporta información indispensable, como en la definción del recurso (`scr`) que se despliega como imagen (`img`):
 
 ```
-<img src="foto.jpg" alt="describe la foto">
+<img src="foto.jpg">
 ```
 
-En otros casos el atributo aporta información adicional, como en un párrafo (`p`) con un atributo de clase (`class`):
+En otros casos el atributo aporta información complementaria, como en un párrafo (`p`) con un atributo de clase (`class`) especial:
 
 ```
 <p class="especial">Este es un párrafo especial</p>
 ```
 
+Los navegadores web ofrecen la opción de "ver el código fuente de la página": aprovechemos tal opción para darle un vistazo al HTML de la primera infografía digital de El Mercurio: 
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/
+
+Podemos ver aquellas partes que conforman tal HTML, gracias a las instrucciones en [este documento](http://infografias.elmercurio.com/20160722-VCT-basuraespacial/js/infografia.js):
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/header/header.html
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_01/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_02/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_03/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/gif/index.html
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_04/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/video/index.html
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_12/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/video2/index.html
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_06/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_07/
+ 
+ - http://infografias.elmercurio.com/20160722-VCT-basuraespacial/gif2/index.html
+ 
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_08/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_09/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_10/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_preinfo/
+
+- http://infografias.elmercurio.com/20160722-VCT-basuraespacial/infografia/modulo_info/
+
+- http://infografias.elmercurio.com/footer/footer.html
+
+**Y podemos saltar al otro lado del mundo, para echarle un vistazo al código fuente de un par de páginas del South China Morning Post**
+
+- https://multimedia.scmp.com/infographics/news/hong-kong/article/3022630/hong-kong-airport-protest/
+
+- https://multimedia.scmp.com/culture/article/ufo/
+
+Como pudieron notar, en todas estas páginas se usan elementos `<etiqueta>contenido</etiqueta>` que no hacen más que describirse.
+
 - - - - - - - -- 
 
-Ahora observemos cómo los elementos estructuran un documento HTML:
+Ahora volvamos al principio, a lo más básico, y observemos cómo los elementos se describen estructurando un documento HTML:
 
 ```
 <!doctype html>
@@ -58,7 +108,7 @@ En lo recién observado, tenemos:
 
 - - - - - - - 
 
-Pero el documento HTML necesita una forma de verse distinta de la definida para el intercambio de trabajo científico en la Organización Europea para la Investigación Nuclear de 1989 (fondo blanco, letras negras, tipografía con serifa en tamaños predefinidos y vínculos subryados en azul cuando aún no han sido visitados). Para ello se complementa con CSS.
+Pero el documento HTML necesita una forma de verse distinta de la definida para [el intercambio de trabajo científico](https://www.ted.com/speakers/tim_berners_lee?language=es) en la Organización Europea para la Investigación Nuclear de 1989 (fondo blanco, letras negras, tipografía con serifa en tamaños predefinidos y vínculos subryados en azul cuando aún no han sido visitados). Para ello el HTML se complementa con CSS.
 
 **CSS (Cascading Style Sheets) es un lenguaje estándar que describe la presentación de las páginas web (cómo se muestra lo que contiene la página).**
 
