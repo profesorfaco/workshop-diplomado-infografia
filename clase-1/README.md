@@ -78,7 +78,7 @@ Podemos ver aquellas partes que conforman tal HTML, gracias a las instrucciones 
 
 Como pudieron notar, en todas estas páginas se usan elementos `<etiqueta>contenido</etiqueta>` que no hacen más que describirse según un estándar amplio, pero limitado, de "[palabras reservadas](http://html5doctor.com/element-index/)". 
 
-Existen muchos recursos en línea que pueden ayudarles a familiarizarse con estas `<etiquetas></etiquetas>`. Pueden buscar estos recursos como *cheat sheets*; un ejemplo: https://html.com/wp-content/uploads/html-cheat-sheet.pdf
+Existen muchos recursos en línea que ayudan a familiarizarse con estas `<etiquetas></etiquetas>`. Pueden buscar estos recursos como *cheat sheets*; un ejemplo: https://html.com/wp-content/uploads/html-cheat-sheet.pdf
 
 - - - - - - - -- 
 
