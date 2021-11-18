@@ -76,7 +76,9 @@ Podemos ver aquellas partes que conforman tal HTML, gracias a las instrucciones 
 
 - https://multimedia.scmp.com/culture/article/ufo/
 
-Como pudieron notar, en todas estas páginas se usan elementos `<etiqueta>contenido</etiqueta>` que no hacen más que describirse según el estándar amplio, pero limitado, de "[palabras reservadas](http://html5doctor.com/element-index/)".
+Como pudieron notar, en todas estas páginas se usan elementos `<etiqueta>contenido</etiqueta>` que no hacen más que describirse según un estándar amplio, pero limitado, de "[palabras reservadas](http://html5doctor.com/element-index/)". 
+
+Existen muchos recursos en línea que pueden ayudarles a familiarizarse con estas `<etiquetas></etiquetas>`. Pueden buscar estos recursos como *cheat sheets*; un ejemplo: https://html.com/wp-content/uploads/html-cheat-sheet.pdf
 
 - - - - - - - -- 
 
@@ -108,7 +110,7 @@ En lo recién observado, tenemos:
 
 - - - - - - - 
 
-Pero el documento HTML necesita una forma de verse distinta de la definida para [el intercambio de trabajo científico](https://www.ted.com/speakers/tim_berners_lee?language=es) en la Organización Europea para la Investigación Nuclear de 1989 (fondo blanco, letras negras, tipografía con serifa en tamaños predefinidos y vínculos subryados en azul cuando aún no han sido visitados). Para ello el HTML se complementa con CSS.
+Pero el documento HTML necesita una forma de verse distinta de la definida para [el intercambio de trabajo científico](https://www.ted.com/speakers/tim_berners_lee?language=es) en la Organización Europea para la Investigación Nuclear, a fines de 1980 y comienzo de 1990 (fondo blanco, letras negras, tipografía con serifa en tamaños predefinidos y vínculos subryados en azul cuando aún no han sido visitados). Para ello el HTML se complementa con CSS.
 
 **CSS (Cascading Style Sheets) es un lenguaje estándar que describe la presentación de las páginas web (cómo se muestra lo que contiene la página).**
 
