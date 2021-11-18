@@ -292,7 +292,7 @@ Notarán que:
 
 - se usan imágenes de relleno, que ustedes podrían cambiar con sus bocetos (dejándolas con un nombre sin tildes, acentos ni espacios, y un peso bajo los 250kb con Photoshop, [Squoosh](https://squoosh.app/) o [TinyPNG](https://tinypng.com/))
 
-Aprovechando el mismo recurso de imágenes, o utilizando imágenes de su propiedad, proponga [la redacción linear](https://youtu.be/iEB3oILm-qQ?t=2010) de una historia realista, esto es: escribir y mostrar verticalmente una historia que podría ser cierta (sin que, necesariamente, lo sea).
+Una vez completen la estructura con algunos títulos e imágenes, vamos a crear un [repositorio en GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories) y un [sitio de página de GitHub](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site). Para ambas cosas, necesitan [su propia cuenta](https://github.com/signup) en [GitHub](https://github.com/).
 
 - - - - - - - 
 
