@@ -63,12 +63,19 @@ Para cada clase necesitaremos:
 
 #### Referencias en línea
 
-- [Catálogo de Visualización de Datos](https://datavizcatalogue.com/ES/)
-- [Data Vis Project](https://datavizproject.com/)
-- [From Data to Vis](https://www.data-to-viz.com/)
+Descripción y programación:
+
 - [JavaScript Para Gatos](https://jsparagatos.com/)
-- [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
-- [RAWGraphs 2.0](https://app.rawgraphs.io/)
 - Tecnología para desarrolladores web | MDN | [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - Tecnología para desarrolladores web | MDN | [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - Tecnología para desarrolladores web | MDN | [SVG](https://developer.mozilla.org/es/docs/Web/SVG)
+- Trabajando con [JSON](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
+- [Valores separados por comas](https://es.wikipedia.org/wiki/Valores_separados_por_comas)
+
+Visualización de datos
+
+- [Catálogo de Visualización de Datos](https://datavizcatalogue.com/ES/)
+- [Data Vis Project](https://datavizproject.com/)
+- [From Data to Vis](https://www.data-to-viz.com/)
+- [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
+- [RAWGraphs 2.0](https://app.rawgraphs.io/)
