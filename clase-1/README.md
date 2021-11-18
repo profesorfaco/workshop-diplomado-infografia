@@ -292,7 +292,7 @@ Notarán que:
 
 - se usan imágenes de relleno, que ustedes podrían cambiar con sus bocetos (dejándolas con un nombre sin tildes, acentos ni espacios, y un peso bajo los 250kb con Photoshop, [Squoosh](https://squoosh.app/) o [TinyPNG](https://tinypng.com/))
 
-Una vez completen la estructura con algunos títulos e imágenes, vamos a crear un [repositorio en GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories) y un [sitio de página de GitHub](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site). Para ambas cosas, necesitan [su propia cuenta](https://github.com/signup) en [GitHub](https://github.com/).
+Una vez modifiquen el código fuente de la página con algunos títulos, párrafos e imágenes, vamos a crear un [repositorio en GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories) y un [sitio de página de GitHub](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site). Para ambas cosas, necesitan [su propia cuenta](https://github.com/signup) en [GitHub](https://github.com/).
 
 - - - - - - - 
 
