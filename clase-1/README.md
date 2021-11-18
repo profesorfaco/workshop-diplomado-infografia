@@ -214,7 +214,9 @@ Para que no quede sin mencionarse, también se puede incluir CSS a nivel de atri
 
 - [Semantic UI](https://semantic-ui.com/): *A development framework that helps create beautiful, responsive layouts using human-friendly HTML*
 
-Nos quedaremos con el primero de los mencionados, [Bootstrap](https://getbootstrap.com/). Veamos cómo las relaciones predefinidas de HTML y CSS se concretan en componentes bien documentados:
+Nos quedaremos con el primero de los mencionados, [Bootstrap](https://getbootstrap.com/). 
+
+En los [Docs](https://getbootstrap.com/docs/5.1/getting-started/introduction/) de [Bootstrap](https://getbootstrap.com/) podemos ver cómo las relaciones predefinidas de HTML y CSS nos permiten crear:
 
 - [Botones](https://getbootstrap.com/docs/5.0/components/buttons/)
 
@@ -222,7 +224,9 @@ Nos quedaremos con el primero de los mencionados, [Bootstrap](https://getbootstr
 
 - [Notificaciones emergentes](https://getbootstrap.com/docs/5.0/components/toasts/)
 
-Aparte de los componentes, conviene relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), una lógica con la que [Bootstrap](https://getbootstrap.com/) se adapta a distintos tamaños de pantalla.
+- Y un largo etc.
+
+Para sacarle buen provecho a [Bootstrap](https://getbootstrap.com/), lo primero es relacionarse con la lógica de las 12 columnas (`col`) en las que se puede dividir una fila (`row`) que se va ajustando dentro de un contenedor (`container`), porque esta es la lógica con la que [Bootstrap](https://getbootstrap.com/) se adapta a distintos tamaños de pantalla.
 
 Digamos que en este contenedor (`container`) quiero dividir la fila (`row`) en dos partes del mismo ancho, para que una se muestre al lado de la otra. Para lograrlo debo tomar 6 y 6 columnas (`col`). Dentro del cuerpo del documento HTML, esto se vería así:
 
