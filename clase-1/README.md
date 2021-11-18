@@ -76,7 +76,7 @@ Podemos ver aquellas partes que conforman tal HTML, gracias a las instrucciones 
 
 - https://multimedia.scmp.com/culture/article/ufo/
 
-Como pudieron notar, en todas estas páginas se usan elementos `<etiqueta>contenido</etiqueta>` que no hacen más que describirse.
+Como pudieron notar, en todas estas páginas se usan elementos `<etiqueta>contenido</etiqueta>` que no hacen más que describirse según el estándar amplio, pero limitado, de "[palabras reservadas](http://html5doctor.com/element-index/)".
 
 - - - - - - - -- 
 
