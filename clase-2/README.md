@@ -8,7 +8,9 @@
 
 Ya aprendimos que **HTML (HyperText Markup Language) es un lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página)**. Este se complementa con otro lenguaje estándar, el **CSS (Cascading Style Sheets) que describe la presentación de las páginas web (cómo se muestra lo que contiene la página)**. 
 
-Ahora corresponde aprender sobre "primo hermano" del HTML: El **SVG (Scalable Vector Graphics)**. Con este lenguaje se describen gráficos vectoriales (qué formas los componen y cuáles son sus atributos). 
+Ahora corresponde aprender algo sobre un "primo hermano" de HTML: El **SVG (Scalable Vector Graphics)**. 
+
+Con este lenguaje se describen gráficos vectoriales (qué formas los componen y cuáles son sus atributos). 
 
 En los gráficos vectoriales podemos encontrarnos con lineas rectas, líneas quebradas, círculos, elipses, rectángulos, polígonos simples y trazados complejos, formas que serán descritas con los atributos correspondientes a su geometría:
 
@@ -143,13 +145,11 @@ Como en la clase recién pasada, vamos a tomar el código fuente de la página h
 
 Notarán que: 
 
-- se indican tres niveles de título
+- repito la base de la clase recién pasada, para poder revisar lo que aún no se haya aclarado
 
-- se rellena con [Loren Ipsum](https://www.lipsum.com/)
+- utilizao tres métodos para "meter" un SVG en el HTML.
 
 - se usan dos SVG.
-
-Aprovechando el mismo recurso de imagen de fondo en el SVG, proponga [la redacción linear](https://youtu.be/iEB3oILm-qQ?t=2010) de una historia realista, esto es: escribir y mostrar verticalmente una historia que podría ser cierta (sin que, necesariamente, lo sea).
 
 - - - - - - - -
 
