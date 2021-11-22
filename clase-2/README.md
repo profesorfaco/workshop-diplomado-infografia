@@ -30,37 +30,59 @@ En los gráficos vectoriales podemos encontrarnos con lineas rectas, líneas que
 <path d="M150 0 L75 200 L225 200 Z" />
 ```
 
-Estas formas también pueden ser afectas mediante CSS, con propiedades particulares, distintas de las que afectan al hipertexto (del HTML), así, por ejemplo, podría agregar la clase `enrojecido` como atributo en un círculo, y este se pintaría de rojo con un borde negro de 1 pixel de ancho. 
+Estas formas también pueden ser afectas mediante CSS, con propiedades particulares, distintas de las que afectan al hipertexto (del HTML), así, por ejemplo, podría agregar la clase `enrojecido` como atributo en un círculo, y este se pintaría de rojo: 
 
 ```
 .enrojecido{
   fill: red;
-  stroke:black;
-  stroke-width:1px;
 }
 ```
 
-No confundamos las propiedades `fill` y `stroke` con `color` y `border`; las dos primeras pueden afectar a elementos gráficos en el SVG, mientras que las dos últimas pueden afectar a elementos HTML.
+No confundamos las propiedades `fill` y `background`; la primera pueden afectar a elementos gráficos en el SVG, mientras que las segunda puede afectar a elementos HTML.
 
 Esta regla de CSS podría afectar al elemento gráfico si se incrusta, vincula o importa en la cabeza del documento HTML que contendrá al SVG, y también lo puede afectarlo si se le incluye dentro del mismo SVG:
 
 ```
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>
-.enrojecido{ fill: red; stroke:black; stroke-width:1px; }
-.enrojecido:hover{fill: pink; transform: scale(110%) translate(-5%,-5%); transition: all ease .5s;}
-</style>
-<circle cx="50" cy="50" r="40" class="enrojecido"/>
-</svg>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>Primer ejemplo</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                        <style>
+                            .enrojecido {
+                                fill: red;
+                            }
+                            .enrojecido:hover {
+                                fill: pink;
+                                transform: scale(110%) translate(-5%, -5%);
+                                transition: all ease 0.5s;
+                                cursor: pointer;
+                            }
+                        </style>
+                        <circle cx="50" cy="50" r="40" class="enrojecido" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
 ```
 
-En el ejemplo recién presentado tenemos dos reglas de CSS, la primera tiene como selector a cualquier elemento de clase "enrojecido" y la segunda tiene como selector a cualquier elemento de la misma clase para cuando el mouse le pasa por encima. En la segunda regla se usan las propiedades CSS [transform](https://developer.mozilla.org/es/docs/Web/CSS/transform) y [transition](https://developer.mozilla.org/es/docs/Web/CSS/transition).
+En el ejemplo recién presentado tenemos dos reglas de CSS, la primera tiene como selector a cualquier elemento de clase "enrojecido" y la segunda tiene como selector a cualquier elemento de la misma clase para cuando el mouse le pasa por encima.
 
 En el SVG tenemos un elemento gráfico de clase "enrojecido", que se ubica justo al centro, esto por sus atributos y los atributos del SVG; noten que el `circle` tiene su centro horizontal (`cx`) en 50 y su centro vertical (`cy`) en 50, mientras el `svg` tiene un ancho de 100 y alto de 100, que se mantienen  por su `viewBox`.
 
 Cuando creamos un SVG con un editor de gráfica vectorial como Adobe Illustrator, en la revisión del código podrán encontrar un CSS que define las propiedades visuales de los elementos gráficos a través de selectores tales como `.st0`, `.st1`, `.st2`, etc. 
 
-Conviene acotar que el código que resulta de guardar o exportar un SVG desde Adobe Illustrator no es tan pulcro, y podría limpiarse con el uso de algunas herramientas en línea:
+Conviene acotar que el código que resulta de guardar o exportar un SVG desde Adobe Illustrator no es tan pulcro (como podremos ver en el *template* preparado), y podría limpiarse con el uso de algunas herramientas en línea:
 
 - https://www.svgminify.com/
 
@@ -68,7 +90,12 @@ Conviene acotar que el código que resulta de guardar o exportar un SVG desde Ad
 
 - https://petercollingridge.appspot.com/svg-optimiser
 
-Entre la gráfica vectorial descrita en el SVG podemos vincular gráficos rasterizados (imágenes de mapa de bits), para dibujar sobre ellos y/o enmascararlos. Lo clave es saber mantener el vínculo en algún lugar donde siempre pueda encontrarse (nunca perdido entre carpetas de escritorio). 
+
+- - - - - - - 
+
+## Exploración
+
+Entre la gráfica vectorial descrita en el SVG podemos vincular gráficos rasterizados (imágenes de mapa de bits), para dibujar sobre ellos y/o enmascararlos. Lo clave es saber mantener el vínculo en algún lugar donde siempre pueda encontrarse. 
 
 En el siguiente ejemplo podemos ver un documento HTML completo, que incluye, entre líneas, al SVG, y dentro de tal SVG se vincula a una imagen:
 
@@ -78,25 +105,21 @@ En el siguiente ejemplo podemos ver un documento HTML completo, que incluye, ent
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-        <title>Hola mundo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Segundo ejemplo</title>
     </head>
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-8 mx-auto py-3">
-                    <h1>Esto es un encabezado de primer nivel</h1>
-                    <p class="lead">Este es un párrafo de bajada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada semper ligula ac facilisis. Nulla facilisi. Pellentesque luctus mollis nulla, quis rutrum risus. Proin nec ligula vel massa cursus accumsan. Cras scelerisque condimentum orci, eu molestie dolor sodales at. Nam a facilisis turpis. Maecenas dolor leo.</p>
-                </div>
-                <div class="col-12">
+                <div class="col-12 my-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" class="w-100">
                         <style type="text/css">
-                            .st0 { fill: #cc0000; }
+                            .enrojecido { fill: #cc0000; }
                         </style>
                         <image width="1600" height="900" xlink:href="https://picsum.photos/id/411/1600/900?grayscale" transform="matrix(0.5 0 0 0.5 0 0)" />
-                        <polygon class="st0" points="372 216 372 150 371 150 371 137 369 137 369 131 368 131 368 128 367 128 367 125 365 125 365 124 364 124 364 122 363 122 363 116 362 116 362 108 361 108 361 106 360 86 359 106 359 108 358 108 358 116 357 116 357 122 356 122 356 124 355 124 355 125 353 125 353 128 352 128 352 131 351 131 351 137 349 137 349 150 348 150 348 216 345 216 345 243 375 243 375 216 "
+                        <polygon class="enrojecido" points="372 216 372 150 371 150 371 137 369 137 369 131 368 131 368 128 367 128 367 125 365 125 365 124 364 124 364 122 363 122 363 116 362 116 362 108 361 108 361 106 360 86 359 106 359 108 358 108 358 116 357 116 357 122 356 122 356 124 355 124 355 125 353 125 353 128 352 128 352 131 351 131 351 137 349 137 349 150 348 150 348 216 345 216 345 243 375 243 375 216 "
                         />
-                        <text transform="matrix(1 0 0 1 366.2178 78.1255)" class="st0">Empire State Building</text>
+                        <text transform="matrix(1 0 0 1 366.2178 78.1255)">Empire State Building</text>
                     </svg>
                 </div>
             </div>
@@ -105,11 +128,35 @@ En el siguiente ejemplo podemos ver un documento HTML completo, que incluye, ent
 </html>
 ````
 
-- - - - - - - 
+Con esto podrían hacer la prueba de utilizar aquellas imágenes ya preparadas para imprenta, haciendo los ajustes correspondientes para usarlas en línea (nunca CMYK, nunca 300 DPI, nunca más de 999kb de peso; ojalá un tercio de tal peso).
 
-## Exploración
+En caso hayan dejado las imágenes para impreso, su optimización para web se puede hacer mediante:
 
-En el ejemplo del documento HTML completo, el `svg` está contenido entre líneas. Esto implica que se abre un espacio para que la descripción del gráfico vectorial se vea en el mismo documento. Pero también podríamos tener esa descripción como un documento independiente, al que se vaya a buscar de la siguiente manera: 
+- https://helpx.adobe.com/es/photoshop-elements/using/optimizing-images.html
+
+- https://tinypng.com/
+
+- https://squoosh.app/
+
+Para contar con más información sobre este ajuste necesario:
+
+- https://bluekea.com/blog/fotografia/cual-es-la-resolucion-correcta-para-fotografia-en-web 
+
+- https://nbadiola.com/peso-ideal-fotografia-para-web/
+
+- https://www.adslzone.net/como-se-hace/photoshop/guardar-imagen-para-web/
+
+**Si ustedes incluyen en su infografía digital recursos para la infografía impresa: Abusarán de la transferencia de datos en la conexión a Internet de cada visitante**. Esta transferencia puede demorar más de 5 segundos:
+
+- [Tienes 5 segundos](http://www.tienes5segundos.cl/) se llama un viejo clásico local sobre gestión de contenidos digitales. 
+
+- [5-Second Usability Test](https://www.nngroup.com/videos/5-second-usability-test/) se llama una técnica que permite evaluar la primera impresión de un sitio web. 
+
+**La regla: Si demora 5 segundos en cargar, no existe. El peso de las imágenes no da lo mismo. No lo descuiden**.
+
+- - - - - - - - -
+
+En los ejemplos presentados en exploración y presentación, el `SVG` está contenido entre líneas de `HTML`. Esto implica que se abre un espacio para que la descripción del gráfico vectorial se vea en el mismo documento. Pero también podríamos tener esa descripción como un documento independiente, al que se vaya a buscar de la siguiente manera: 
 
 ```
 <object data="grafica.svg" type="image/svg+xml" />
@@ -147,9 +194,7 @@ Notarán que:
 
 - repito la base de la clase recién pasada, para poder revisar lo que aún no se haya aclarado
 
-- utilizao tres métodos para "meter" un SVG en el HTML.
-
-- se usan dos SVG.
+- utilizo tres métodos para "meter" un SVG en el HTML.
 
 - - - - - - - -
 
