@@ -82,14 +82,7 @@ En el SVG tenemos un elemento gráfico de clase "enrojecido", que se ubica justo
 
 Cuando creamos un SVG con un editor de gráfica vectorial como Adobe Illustrator, en la revisión del código podrán encontrar un CSS que define las propiedades visuales de los elementos gráficos a través de selectores tales como `.st0`, `.st1`, `.st2`, etc. 
 
-Conviene acotar que el código que resulta de guardar o exportar un SVG desde Adobe Illustrator no es tan pulcro (como podremos ver en el *template* preparado), y podría limpiarse con el uso de algunas herramientas en línea:
-
-- https://www.svgminify.com/
-
-- https://jakearchibald.github.io/svgomg/
-
-- https://petercollingridge.appspot.com/svg-optimiser
-
+Conviene acotar que el código que resulta de guardar o exportar un SVG desde Adobe Illustrator no es tan pulcro (como podremos ver en el *template* preparado), y podría limpiarse con el uso de algunas herramientas en línea: https://www.svgminify.com/ o https://jakearchibald.github.io/svgomg/
 
 - - - - - - - 
 
