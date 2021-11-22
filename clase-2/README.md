@@ -156,7 +156,7 @@ Para contar con más información sobre los ajustes:
 
 - - - - - - - - -
 
-En los ejemplos presentados en exploración y presentación, el `SVG` está contenido entre líneas de `HTML`. Esto implica que se abre un espacio para que la descripción del gráfico vectorial se vea en el mismo documento. Pero también podríamos tener esa descripción como un documento independiente, al que se vaya a buscar de la siguiente manera: 
+En los ejemplos de **presentación** y **exploración**, el `SVG` está contenido entre líneas de `HTML`. Esto implica que se abre un espacio para que la descripción del gráfico vectorial en el mismo código fuente. Pero también podríamos tener esa descripción como un documento independiente, al que se vaya a buscar de la siguiente manera: 
 
 ```
 <object data="grafica.svg" type="image/svg+xml" />
@@ -175,14 +175,7 @@ Y podrán encontrar una forma más de incluir gráfica de vectores en un documen
 
 Noten que se trata de un elemento HTML de imagen (`img`) en el que el atributo de recurso (`src`) incluye el SVG con un ajuste en las comillas, siempre simples entre dobles, y los signos `<` y `>`, que son reemplazados por`%3C` y `%3E` respectivamente.
 
-Para esto último, se necesita un Codificador SVG a Base64, tal como:
-
-- https://yoksel.github.io/url-encoder/
-
-- https://codebeautify.org/svg-to-base64-converter
-
-- https://image2base64.online/
-
+Para esto último, se necesita un Codificador SVG a Base64, como https://yoksel.github.io/url-encoder/, https://codebeautify.org/svg-to-base64-converter o https://image2base64.online/
 
 - - - - - - - 
 
