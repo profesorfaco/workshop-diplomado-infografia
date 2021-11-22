@@ -128,9 +128,9 @@ En el siguiente ejemplo podemos ver un documento HTML completo, que incluye, ent
 </html>
 ````
 
-Con esto podrían hacer la prueba de utilizar aquellas imágenes ya preparadas para imprenta, haciendo los ajustes correspondientes para usarlas en línea (nunca CMYK, nunca 300 DPI, nunca más de 999kb de peso; ojalá un tercio de tal peso).
+Reemplazando la referencia de hypertexto (`href`) en `xlink:href="https://picsum.photos/id/411/1600/900?grayscale"`, podrían incluir una imagen ya preparadas para la versión impresa de su infografía. Corresponde ajustar tal imagen para su uso en línea: Nunca CMYK, nunca 300 DPI, nunca más de 999kb de peso (ojalá un tercio de tal peso).
 
-En caso hayan dejado las imágenes para impreso, su optimización para web se puede hacer mediante:
+Los ajustes para el uso en línea puede hacerse con:
 
 - https://helpx.adobe.com/es/photoshop-elements/using/optimizing-images.html
 
@@ -138,7 +138,7 @@ En caso hayan dejado las imágenes para impreso, su optimización para web se pu
 
 - https://squoosh.app/
 
-Para contar con más información sobre este ajuste necesario:
+Para contar con más información sobre los ajustes:
 
 - https://bluekea.com/blog/fotografia/cual-es-la-resolucion-correcta-para-fotografia-en-web 
 
@@ -146,13 +146,13 @@ Para contar con más información sobre este ajuste necesario:
 
 - https://www.adslzone.net/como-se-hace/photoshop/guardar-imagen-para-web/
 
-**Si ustedes incluyen en su infografía digital recursos para la infografía impresa: Abusarán de la transferencia de datos en la conexión a Internet de cada visitante**. Esta transferencia puede demorar más de 5 segundos:
+**Si ustedes incluyen en su infografía digital recursos para la infografía impresa: Abusarán de la transferencia de datos en la conexión a Internet de cada visitante. Esta transferencia puede demorar más de 5 segundos**:
 
 - [Tienes 5 segundos](http://www.tienes5segundos.cl/) se llama un viejo clásico local sobre gestión de contenidos digitales. 
 
 - [5-Second Usability Test](https://www.nngroup.com/videos/5-second-usability-test/) se llama una técnica que permite evaluar la primera impresión de un sitio web. 
 
-**La regla: Si demora 5 segundos en cargar, no existe. El peso de las imágenes no da lo mismo. No lo descuiden**.
+**Si demora más de 5 segundos en cargar: ¡Esto no funciona, me voy a otro lugar!**.
 
 - - - - - - - - -
 
@@ -189,12 +189,6 @@ Para esto último, se necesita un Codificador SVG a Base64, tal como:
 ## Aplicación
 
 Como en la clase recién pasada, vamos a tomar el código fuente de la página https://profesorfaco.github.io/infografia/clase-2/
-
-Notarán que: 
-
-- repito la base de la clase recién pasada, para poder revisar lo que aún no se haya aclarado
-
-- utilizo tres métodos para "meter" un SVG en el HTML.
 
 - - - - - - - -
 
