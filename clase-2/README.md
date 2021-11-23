@@ -152,7 +152,7 @@ Para contar con más información sobre los ajustes:
 En los ejemplos de **presentación** y **exploración**, el `SVG` está contenido entre líneas de `HTML`. Esto implica que se abre un espacio para que la descripción del gráfico vectorial en el mismo código fuente. Pero también podríamos tener esa descripción como un documento independiente, al que se vaya a buscar de la siguiente manera: 
 
 ```
-<object data="grafica.svg" type="image/svg+xml" />
+<object data="grafica.svg" type="image/svg+xml"></object>
 ```
 La ventaja de usar `object` es que su descripción puede ser afectada por el CSS del documento HTML, lo que ya no ocurre cuando se le usa como imagen:
 
