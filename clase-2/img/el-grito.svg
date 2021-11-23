@@ -46,7 +46,7 @@
         }
 
     </style>
-    <circle id="saco" fill="#BBBBBB" cx="250" cy="230" r="25" />
+    <circle id="saco" fill="#777777" cx="250" cy="230" r="25" />
     <path id="hombros" class="bordes" d="M20,197.5c43.7-86.2,130.6-145,230.5-145c99.2,0,185.4,57.8,229.5,143" />
     <path
         id="cabeza"
