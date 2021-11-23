@@ -121,7 +121,9 @@ En el siguiente ejemplo podemos ver un documento HTML completo, que incluye, ent
 </html>
 ````
 
-Reemplazando la referencia de hypertexto (`href`) en `xlink:href="https://picsum.photos/id/411/1600/900?grayscale"`, podrían incluir una imagen ya preparadas para la versión impresa de su infografía. Corresponde ajustar tal imagen para su uso en línea: Nunca CMYK, nunca 300 DPI, nunca más de 999kb de peso (ojalá un tercio de tal peso).
+Reemplazando la referencia de hypertexto (`href`) en `xlink:href="https://picsum.photos/id/411/1600/900?grayscale"`, podrían incluir una imagen ya preparadas para la versión impresa de su infografía, o podrían aprovechar el trabajo que ya hicieron en Illustrator o InkScape, cuidando mucho el orden (porque el código que se obtiene de tales programas es algo desordenado). 
+
+¡Pero corresponde ajustar cada imagen para su uso en línea! Nunca CMYK, nunca 300 DPI, nunca más de 999kb de peso (ojalá un tercio de tal peso).
 
 Los ajustes para el uso en línea puede hacerse con:
 
