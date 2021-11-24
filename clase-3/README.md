@@ -47,7 +47,7 @@ En su navegador web revisen el código fuente, y noten que no existe un "Hola" a
 
 Revisando las partes del código recién escrito, entre `<script></script>`, tenemos:
 
-- `var` anteciendo a `b`: Estoy creando una variable a la que le llamo, simplemente, b. Pueden imaginar una caja que tenga una b. También podría crear una variable con `let` y `const`.
+- `var` anteciendo a `b`: Estoy creando una variable a la que le llamo, simplemente, b. Pueden imaginar una caja que tenga una b. También podría crear una variable [con `let` y `const`](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
 
 - `=` siguiendo a `b`: Estoy asignando a la variable recién creada un valor. Pueden imaginar que estoy guardando en esa caja algo, y luego llamaré a ese algo por el nombre de la caja que lo contiene. 
 
