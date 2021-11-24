@@ -43,7 +43,7 @@ Para ver diferencias entre un **ver código fuente** y un **inspector de element
 </html>
 ```
 
-En tal navegador web revisen el código fuente, y noten que no existe un "Hola" antes del `<button id="unique">Soy un botón</button>`.
+En su navegador web revisen el código fuente, y noten que no existe un "Hola" antes del `<button id="unique">Soy un botón</button>`.
 
 Revisando las partes del código recién escrito, entre `<script></script>`, tenemos:
 
