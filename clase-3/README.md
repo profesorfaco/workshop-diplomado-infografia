@@ -12,7 +12,7 @@ Para avanzar rápido en la definición del aspecto de páginas web que [deben se
 
 En esta clase corresponde dar un paso que nos llevará desde lenguajes de descripción (HTML, SVG y CSS) a un lenguaje de programación que se ejecuta del lado del cliente: JavaScript.
 
-**JavaScript es un lenguaje de programación con el que las páginas web se hacen interactivas, controlando a cada navegador web y su Modelo de Objetos de Documento ([DOM; Document Object Model](https://es.wikipedia.org/wiki/Document_Object_Model))**: Se controla la "comprensión de la lectura" del navegador web. Por este motivo pueden haber diferencias entre **ver código fuente** e [**inspeccionar elementos**](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web)
+**JavaScript es un lenguaje de programación con el que las páginas web se hacen interactivas, controlando a cada navegador web y su Modelo de Objetos de Documento ([DOM; Document Object Model](https://es.wikipedia.org/wiki/Document_Object_Model))**: Se controla, a través de pequeños programas (o *scripts*), la "comprensión de la lectura" del navegador web. Por este motivo pueden haber diferencias entre **ver código fuente** e [**inspeccionar elementos**](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web).
 
 - - - - - - - 
 
