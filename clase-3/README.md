@@ -6,7 +6,7 @@
 
 #### Presentación
 
-Ya reconocimos las diferencias entre [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [SVG](https://developer.mozilla.org/es/docs/Web/SVG) y [CSS](https://developer.mozilla.org/es/docs/Web/CSS). Aprendimos que HTML describe, mediante elementos, a las páginas web. Su primo hermano, el SVG, hace lo mismo con los gráficos vectoriales. Tambien aprendimos que CSS puede describir, mediante reglas, el aspecto de páginas y gráficos vectoriales. 
+Ya reconocimos las diferencias entre [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [SVG](https://developer.mozilla.org/es/docs/Web/SVG) y [CSS](https://developer.mozilla.org/es/docs/Web/CSS). Aprendimos que HTML describe, mediante elementos, a las páginas web. Su primo hermano, el SVG, hace lo mismo con los gráficos vectoriales. También aprendimos que CSS puede describir, mediante reglas, el aspecto de páginas y gráficos vectoriales. 
 
 Para avanzar rápido en la definición del aspecto de páginas que [deben ser *responsivas*](https://youtu.be/iEB3oILm-qQ?t=1780), estamos aprovechando [el CSS de Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css).
 
