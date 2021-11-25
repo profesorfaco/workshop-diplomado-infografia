@@ -10,9 +10,9 @@ Ya reconocimos las diferencias entre [HTML](https://developer.mozilla.org/es/doc
 
 Para avanzar rápido en la definición del aspecto de páginas web que [deben ser *responsivas*](https://youtu.be/iEB3oILm-qQ?t=1780), estamos aprovechando [el CSS de Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css).
 
-En esta clase corresponde dar un paso que nos llevará desde lenguajes de descripción (HTML, SVG y CSS) a un lenguaje de programación que se ejecuta del lado del cliente: JavaScript.
+En esta clase corresponde dar un paso que nos llevará desde lenguajes de descripción (HTML, SVG y CSS) a un lenguaje de programación que se ejecuta del lado del cliente: [JavaScript](https://jsparagatos.com/).
 
-**JavaScript es un lenguaje de programación con el que las páginas web se hacen interactivas, controlando a cada navegador web y su Modelo de Objetos de Documento ([DOM; Document Object Model](https://es.wikipedia.org/wiki/Document_Object_Model))**: Se controla, a través de pequeños programas (o *scripts*), la "comprensión de lectura" del navegador web. Por este motivo pueden haber diferencias entre **ver código fuente** e [**inspeccionar elementos**](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web).
+**JavaScript es un lenguaje de programación con el que las páginas web se hacen interactivas mediante el control de cada navegador web y su Modelo de Objetos de Documento ([DOM; Document Object Model](https://es.wikipedia.org/wiki/Document_Object_Model))**: Con JavaScript se controla, a través de pequeños programas (o *scripts*), la "comprensión de lectura" del navegador web. Por este motivo pueden haber diferencias entre **ver código fuente** e [**inspeccionar elementos**](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web).
 
 - - - - - - - 
 
