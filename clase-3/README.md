@@ -53,21 +53,28 @@ En su navegador web revisen el código fuente, y noten que no existe un "Hola" a
 
 - **El `document.getElementById("especial")`**. De lo ya intepretado por el navegador, quiero tomar aquello que tenga la identidad `especial`.
 
-- **Las tres líneas que incluyen el `x.addEventListener("click", function(){}, false)`**. Le aviso al navegador que se disponga a escuchar el `click` de aquello que dejé guardado en `x`, y que corra una función si se hace tal `click`.
+- **Las tres líneas que incluyen el `x.addEventListener("click", function(){}, false)`**. Le aviso al navegador que se disponga a escuchar el `click` de aquello que dejé guardado en `x`, y que corra una función si lo escucha.
  
 - **El cierre con `x.insertAdjacentHTML("beforebegin", "Hola ")`**. Antes de terminar, vuelvo a tomar la caja marcada con la `x`, para que se inserte, antes suyo, un "Hola".
 
-La manera en que se escriban las instrucciones puede variar dependiendo de la lógica de la misma instrucción, el estándar que se está respetando, (1) las (malas)costumbres de quien progreme, la biblioteca (*library*) de JavaScript en que nos apoyemos o el marco de trabajo (*framework*) de JavaScript en que nos basemos.
+La manera en que se escriban las instrucciones puede variar dependiendo de la lógica de la misma instrucción, el estándar que se está respetando, (1) las (malas)costumbres de quien progreme, (2) la biblioteca (*library*) de JavaScript en que nos apoyemos o (3) el marco de trabajo (*framework*) de JavaScript en que nos basemos.
 
-1. Un ejemplo de (mala)costumbre: En el ejemplo usé `document.getElementById("especial")` cuando ya podría estar usando `document.querySelector("#especial")`. Si no tuviera esa (mala)costumbre evitaría confundirme entre `document.getElementById()`, `document.getElementsByClassName()` o `document.getElementsByTagName()`.
+1. Un ejemplo de (mala)costumbre: En el ejemplo usé `document.getElementById("especial")` cuando ya podría estar usando `document.querySelector("#especial")`. Si no tuviera esa (mala)costumbre, no me confundirme entre `document.getElementById()`, `document.getElementsByClassName()` o `document.getElementsByTagName()`.
 
-2. ¿Qué es una *library* de JavaScript? Es código preparado y explicado, que permite resolver cosas específicas, como un gráfico o un mapa. Con una analogía cocinera: una biblioteca es como una sopa Maggi. 
+2. ¿Qué es una *library* de JavaScript? Es código preparado y explicado, que permite resolver cosas específicas, como [un gráfico](https://www.chartjs.org/), [un mapa](https://leafletjs.com/) o [una comparación de dos imágenes](https://image-compare-viewer.netlify.app/). Con una analogía cocinera: una biblioteca es como una sopa Maggi. 
 
-3. ¿Qué es un *framework* de JavaScript? También es código preparado y explicado. La diferencia es que permite resolver cosas grandes, como una aplicación web completa (ver vue.js y react.js). Si adaptamos la analogía de la cocina, en un framework tenemos una selección de ingredientes listos, que nos permitirán hacer muchísismo más que  sopa.
+3. ¿Qué es un *framework* de JavaScript? También es código preparado y explicado. La diferencia es que permite resolver cosas grandes, como una aplicación web completa (ver [vue.js](https://v3.vuejs.org/) y [react.js](https://reactjs.org/)). Si insistimos en la analogía de la cocina, un framework ofrece una selección de ingredientes listos que nos permiten hacer muchísimo más que sopa.
 
-¿Por qué usar *libraries* o *frameworks*? Porque los requerimiento de interacción son cada vez más complejos, y las dinámicas del trabajo tienden al [Software funcionando tan rápido como sea posible](https://agilemanifesto.org/iso/es/manifesto.html).
+¿Por qué usar *libraries* o *frameworks* de JavaScript? Porque los requerimiento de interacción son cada vez más complejos, y las dinámicas del trabajo tienden al [Software funcionando tan rápido como sea posible](https://agilemanifesto.org/iso/es/manifesto.html).
 
-¿Usaremos algunos? Podríamos ver alguna biblioteca la próxima clase, pero, por ahora, vamos a resolver algunas cosas sin ellas: moviéndonos en espacios de interacción sencillos.
+¿Usaremos algún *framework* de JavaScript? No. 
+
+¿Usaremos alguna *library* de JavaScript? Si. Hoy nos aprovecharemos de dos. 
+
+1. La que ofrece [Bootstrap](https://getbootstrap.com/)
+2. [Image Compare Viewer](https://image-compare-viewer.netlify.app/). 
+
+La próxima clase podríamos revisar otra.
 
 - - - - - - - 
 
