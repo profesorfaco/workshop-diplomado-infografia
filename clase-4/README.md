@@ -124,11 +124,11 @@ Para comprender de mejor manera lo recién expuesto, practiquemos con el siguien
     </body>
 </html>
 ```
-Habría que copiar el código, para luego pegarlo en Atom o Sublime Text. Guardarlos con extensión `.html` y abrirlo en su navegador web.
+Habría que copiar el código, para luego pegarlo en un documento nuevo creado en Atom o Sublime Text. Guardarlo con extensión `.html`, y abrirlo en su navegador web.
 
-En el código se aprovechan las variables `e` y `g`, y utilizamos el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach).
+En el código aprovechamos las variables `e` y `g`, además del [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach).
 
-Para aprovechar la variable `h`, antes convendría revisar los métodos
+Para aprovechar la variable `h`, antes convendría revisar los métodos:
 
 - [`sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
@@ -140,11 +140,11 @@ Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Mus
 
 #### Exploración
 
-Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con https://myjson.dit.upm.es/api/bins/1wo6
+Volvamos a la variable `h`, que está más arriba y contiene un arreglo de objetos. Comparémosla con https://myjson.dit.upm.es/api/bins/1wo6
 
 Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
-Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor. Por eso `mon`, `dad` y `children` en la variable `h` tiene algo distinto en el [JSON ya referido](http://myjson.dit.upm.es/api/bins/1wo6)
+Lo que se hace "más legible" con tal extensión en sus navegadores web es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor. Por eso `mon`, `dad` y `children` en la variable `h` tiene algo distinto en el [JSON ya referido](http://myjson.dit.upm.es/api/bins/1wo6)
 
 ¿Cómo podría ir a buscar ese JSON en línea para trabajar con él? Hay varias maneras, pero a continuación nos aprovechamos de [una petición básica de **fetch**](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch#on-github):
 
