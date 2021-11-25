@@ -64,6 +64,19 @@
             h3 {
                 font-size: calc(1.5rem + 1vw);
             }
+
+            @keyframes corre {
+                0%{left: 0; position: absolute;}
+                100%{left: calc(100% - 60px); position: absolute;}
+            }
+            
+            #lento{
+                animation: corre 10s normal forwards;
+            }
+
+            #veloz{
+                animation: corre 5s normal forwards;
+            }
         </style>
 
         <!--ESTO SERVIRÁ PARA COMPARAR UN ANTES Y UN DESPUÉS-->
@@ -163,9 +176,9 @@
                         <h3 class="text-center pt-5 pb-2">Etcétera</h3>
                     </div>
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                        <div class="row align-items-center">
-                            <div class="col-sm-4 text-center text-sm-start">
-                                <h4>Visión</h4>
+                        <div class="row align-items-center py-4">
+                            <div class="col-sm-6 text-center text-sm-start order-sm-2">
+                                <h4>Visión del tigre</h4>
                                 <p>Su visión es muy aguda aún en la oscuridad. De noche su pupila se agranda para dejar pasar más luz y de día en cambio se reduce.</p>
                                 <div class="small fw-bold">
                                     <div class="form-check form-check-inline">
@@ -178,7 +191,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-6 order-sm-1">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" class="w-100">
                                     <style type="text/css">
                                         .uno {
@@ -216,22 +229,20 @@
                     </div>                    
                         <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                             <h4 class="text-center pt-5 pb-2">Animación</h4>
-
-                            <p>
-                                Recuerden que podemos animar SVG con CSS, como en el siguiente caso; donde tenemos un par de <a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">animaciones</a>, cada una con su
-                                <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">transformación en 2D</a>:
+                            <p>Recuerden que podemos animar SVG con CSS, como en el siguiente caso; donde tenemos un par de <a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">animaciones</a>, cada una con su <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">transformación en 2D</a>:
                             </p>
                             <object class="mx-5" data="files/el-grito.svg" type="image/svg+xml"></object>
-                            <p class="text-center mx-5 mb-5 small text-muted">
-                                Este es el saco gural o faringeo del Siamang, que puede inflarse hasta alcanzar el tamaño de su cabeza. Está presente en macho y hembra. Se trata de una característica morfológica única que los distingue de
-                                otros gibones.
-                            </p>
-                            <p class="mb-5">
-                                Como ya se dijo, hay formas <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank" rel="noopener noreferrer">más complejas de animar SVG</a>, donde no se utiliza CSS, sino el mismo primer lenguaje. De tal
-                                forma se resuelven las animaciones de <strong>Movements and maneuvers </strong> en <a href="https://multimedia.scmp.com/culture/article/ufo/" target="_blank" rel="noopener noreferrer">Are we alone?</a>, un
-                                trabajo de Adolfo Arranz y Pablo Robles, publicado en el South China Morning Post. Lo tomé por dos razones.
-                            </p>
-                        </div>
+                            <p class="text-center mx-5 mb-5 small text-muted">Este es el saco gural o faringeo del Siamang, que puede inflarse hasta alcanzar el tamaño de su cabeza. Está presente en macho y hembra. Se trata de una característica morfológica única que los distingue de otros gibones.</p>
+                            <p class="mb-5">Como ya se dijo, hay formas <a href="https://css-tricks.com/guide-svg-animations-smil/" target="_blank" rel="noopener noreferrer">más complejas de animar SVG</a>, donde no se utiliza CSS, sino el mismo primer lenguaje. De tal forma se resuelven las animaciones de <strong>Movements and maneuvers </strong> en <a href="https://multimedia.scmp.com/culture/article/ufo/" target="_blank" rel="noopener noreferrer">Are we alone?</a>, un trabajo de Adolfo Arranz y Pablo Robles, publicado en el South China Morning Post.</p>
+                            <p>También hay formas de animar con CSS y HTML, sin SVG, pero eso lo podremos ver la próxima sesión, sobre <em>JavaScript: Datos y bibliotecas</em>:</p>
+                            <div class="row mb-5" id="final">
+                                <div class="col-12" style="position:relative; height:60px;">
+                                    <img src="files/corre-atrasado.gif" width="60" height="60">
+                                </div>
+                                <div class="col-12" style="position:relative; height:60px;">
+                                    <img src="files/corre-atrasado.gif" width="60" height="60">
+                                </div>
+                            </div>                                
                     </div>
                 </div>
             </section>
@@ -294,7 +305,7 @@
         <script src="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js"></script>
         <!--LO QUE SIGUE ES LA CONFIGURACIÓN DE LA COMPARACIÓN DE IMÁGENES-->
         <script>
-            const element = document.getElementById("image-compare");
+            const element = document.querySelector("#image-compare");
             const options = {
                   controlColor: "#FFFFFF",
                   controlShadow: true,
@@ -308,6 +319,16 @@
                 }
             };
             const viewer = new ImageCompare(element, options).mount();
+        </script>
+        <!--PARA QUE HOMERO CORRA UNA VEZ LLEGUEMOS AL FINAL-->
+        <script>
+            var f = document.querySelector("#final").offsetTop;
+            addEventListener("scroll",function () {
+                if (f > window.scrollY) {
+                    document.querySelector("#final").querySelectorAll("img")[0].setAttribute("id", "veloz");
+                    document.querySelector("#final").querySelectorAll("img")[1].setAttribute("id", "lento");
+                }
+            },false);
         </script>
     </body>
 </html>
