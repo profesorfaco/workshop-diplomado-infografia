@@ -75,9 +75,21 @@ La próxima clase podríamos revisar otra.
 
 #### Aplicación
 
-Como en las clases pasadas, cuenta con algo preparado para profundizar de manera práctica https://profesorfaco.github.io/infografia/clase-3/
+Como en las clases pasadas, cuenta con algo preparado para profundizar de manera práctica: 
+
+https://profesorfaco.github.io/infografia/clase-3/
 
 En lo preparado encontrarán 5 *scripts* y 6 usos de JavaScript (se suma un uso por el [carousel de Bootstrap](https://getbootstrap.com/docs/5.1/components/carousel/#how-it-works))
+
+Si están viendo en Chrome [la página web preparada para esta clase, que ya está hospeda en GitHub](https://profesorfaco.github.io/infografia/clase-3/), podrán ver un mensaje de advertencia en la consola de JavaScript. El motivo para ese mensaje tiene tres partes:
+
+- Es el audio: https://medium.com/@barzik/the-new-html5-video-audio-api-has-privacy-issues-on-desktop-chrome-5832c99c7659
+
+- Es GitHub Pages: https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/
+
+- Es el Federated Learning of Cohorts: https://amifloced.org/
+
+Pero no es necesario alarmarse. 
 
 - - - - - - - -
 
