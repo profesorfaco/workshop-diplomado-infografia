@@ -47,15 +47,15 @@ En su navegador web revisen el código fuente, y noten que no existe un "Hola" a
 
 Para comprender las instrucciones entre `<script></script>`, podemos prestar atención a:
 
-- La `x` después de `var`: Allí se crear una variable de nombre `x`. Además de [`var`, podríamos usar `let` o `const`](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Pueden imaginar que al usar `var`, `let`o `const` creamos una caja vacía, con su nombre marcado: En este caso, marcada con una `x`.
+- **La `x` después de `var`**. Allí se crea una variable de nombre `x`. Además de [`var`, podríamos usar `let` o `const`](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Pueden imaginar que al usar `var`, `let`o `const` se crea una caja vacía, con su nombre marcado: En este caso, marcada con una `x`.
 
-- La `x` le sigue un signo `=`: Así se asigna a la variable recién creada un contenido. Pueden imaginar que estoy guardando algo en esa caja, y luego llamaré a ese algo por el nombre de la caja que lo contiene. Importante es agregar que en JavaScript lo igual es `==` y lo diferente es `!=`. Pero un único signo `=` es asignación de contenido (el algo de la caja marcada con `x` será tal cosa).
+- **El signo `=` después de `x`**. Así se asigna a la variable recién creada un contenido. Pueden imaginar que estoy guardando algo en esa caja, y luego llamaré a ese algo por el nombre de la caja que lo contiene. Importante es agregar que en JavaScript lo igual es `==` y lo diferente es `!=`. Pero un único signo `=` es asignación de contenido (el algo de la caja marcada con `x` será tal cosa).
 
-- El `document.getElementById("especial")`: De lo ya intepretado por el navegador, quiero tomar aquello que tenga identidad `especial`.
+- **El `document.getElementById("especial")`**. De lo ya intepretado por el navegador, quiero tomar aquello que tenga la identidad `especial`.
 
-- `x.addEventListener("click", function(){}, false)`: Le aviso al navegador que se disponga a escuchar el `click` de aquello que dejé guardado en `x`, y que corra una función en caso se ejecute una `function(){}`, donde se despliega una `alert{}`.
+- **Las tres líneas que incluyen el `x.addEventListener("click", function(){}, false)`**. Le aviso al navegador que se disponga a escuchar el `click` de aquello que dejé guardado en `x`, y que corra una función si se hace tal `click`.
  
-- `x.insertAdjacentHTML("beforebegin", "Hola ")`: Nuevamente tomo la caja marcada con la `x`, para que antes suyo se inserte un "Hola".
+- **El cierre con `x.insertAdjacentHTML("beforebegin", "Hola ")`**. Antes de terminar, vuelvo a tomar la caja marcada con la `x`, para que se inserte, antes suyo, un "Hola".
 
 La manera en que se escriban las instrucciones puede variar dependiendo de la lógica de la misma instrucción, el estándar que se está respetando, (1) las (malas)costumbres de quien progreme, la biblioteca (*library*) de JavaScript en que nos apoyemos o el marco de trabajo (*framework*) de JavaScript en que nos basemos.
 
