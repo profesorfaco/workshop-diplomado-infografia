@@ -45,7 +45,7 @@ Para encontrar las diferencias entre un **ver código fuente** y un **inspector 
 
 En su navegador web revisen el código fuente, y noten que no existe un "Hola" antes del `<button id="especial">Soy un botón</button>`, aun cuando pueden verlo por el control de la "comprensión de la lectura".
 
-Para comprender las instrucciones entre `<script></script>`, podemos prestar atención a:
+**Para comprender las instrucciones entre `<script></script>`, podemos prestar atención a:**
 
 - **La `x` después de `var`**. Allí se crea una variable de nombre `x`. Además de [`var`, podríamos usar `let` o `const`](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). Pueden imaginar que al usar `var`, `let`o `const` se crea una caja vacía, con su nombre marcado: En este caso, marcada con una `x`.
 
