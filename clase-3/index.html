@@ -13,6 +13,7 @@
 
             :root {
                 --bs-body-font-family: "Roboto", sans-serif;
+                --bs-primary: #f70;
             }
 
             /* vamos a ajustar los pesos de algunos títulos a lo que dispone la fuente  */
@@ -55,7 +56,7 @@
             /* usaré el ">" entre el título se segundo nive (h2) y el lapso en la misma línea (span) --> https://techbrij.com/css-selector-adjacent-child-sibling */
 
             h2 > span {
-                background: #f70;
+                background: var(--bs-primary);
                 color: #fff;
             }
 
