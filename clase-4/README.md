@@ -6,26 +6,26 @@
 
 #### Presentación
 
-**En JavaScript podemos crear toda variables con una palabra reservada, que puede ser `var`, `let` o `const`**. Para entender la diferencia entre las opciones, conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b). 
+**En JavaScript podemos crear toda variables con una palabra reservada, que puede ser `var`, `let` o `const`**. Para entender la diferencia entre las opciones, conviene consultar el artículo [*Var, let y const. ¿Donde, cuando y por qué?*](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b) 
 
-Imaginemos las variables creadas como cajas marcadas. Por ejemplo, `var a` crea una caja marcada con una a. En cada caja podemos meter datos que pueden variar en la ejecución del programa completo (por eso `var` de variable), sólo en un contexto (`let`) o pueden quedarse constantes, sin variar (`const`).
+Imaginemos las variables creadas como cajas marcadas. Por ejemplo, `var a` crea una caja marcada con una `a`. En cada caja podemos meter datos que pueden variar en la ejecución del programa completo (por eso `var`), sólo en un contexto (`let`) o pueden quedarse constantes, sin variar (`const`).
 
-A eta caja creada con `var`, `let` o `const` le podemos asignar valores de distintos tipos: 
+A esta caja creada con `var`, `let` o `const` le podemos asignar valores de distintos tipos: 
 
 ```
-//numeros enteros
+//número entero
 var a = 18261884;
 
-//numeros de punto flotante
+//número de punto flotante
 var b = 24.15267252;
 
-//booleanos
+//booleano
 var c = true;
 
 //cadena de caracteres
 var d = "Lisa the Vegetarian";
 
-//arreglos
+//arreglo
 var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
 
 //objeto
@@ -42,7 +42,7 @@ var g = {
     children: ["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]
 };
 
-//arreglo con objetos
+//arreglo con objetos y objetos con arreglo
 var h = [
     {
         mom: "Luann",
