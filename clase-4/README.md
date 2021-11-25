@@ -126,13 +126,13 @@ Para comprender de mejor manera lo recién expuesto, practiquemos con el siguien
 ```
 Habría que copiar el código, para luego pegarlo en Atom o Sublime Text. Guardarlos con extensión `.html` y abrirlo en su navegador web.
 
-En el código se aprovechan las variables `e` y `g`. Para aprovechar la variable `h` convendría revisar:
+En el código se aprovechan las variables `e` y `g`, y utilizamos el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach).
 
-- el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
+Para aprovechar la variable `h`, antes convendría revisar los métodos
 
-- el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach); y
+- [`sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
-- el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
+- [`includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
 Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
 
