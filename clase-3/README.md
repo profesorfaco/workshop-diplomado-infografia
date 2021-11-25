@@ -59,7 +59,7 @@ Para comprender las instrucciones entre `<script></script>`, podemos prestar ate
 
 La manera en que se escriban las instrucciones puede variar dependiendo de la lógica de la misma instrucción, el estándar que se está respetando, (1) las (malas)costumbres de quien progreme, la biblioteca (*library*) de JavaScript en que nos apoyemos o el marco de trabajo (*framework*) de JavaScript en que nos basemos.
 
-1. Un ejemplo de (mala)costumbre: En el ejemplo usé `document.getElementById("unique")` cuando ya podría estar usando `document.querySelector("#unique")`. Si no tuviera esa (mala)costumbre evitaría problemas confundiendo `document.getElementById()`, `document.getElementsByClassName()` o `document.getElementsByTagName()`.
+1. Un ejemplo de (mala)costumbre: En el ejemplo usé `document.getElementById("especial")` cuando ya podría estar usando `document.querySelector("#especial")`. Si no tuviera esa (mala)costumbre evitaría confundirme entre `document.getElementById()`, `document.getElementsByClassName()` o `document.getElementsByTagName()`.
 
 2. ¿Qué es una *library* de JavaScript? Es código preparado y explicado, que permite resolver cosas específicas, como un gráfico o un mapa. Con una analogía cocinera: una biblioteca es como una sopa Maggi. 
 
