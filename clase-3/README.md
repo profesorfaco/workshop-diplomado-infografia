@@ -20,7 +20,7 @@ Este control no re-escribe. Lo que ya fue escrito en HTML, SVG o CSS se quedará
 
 #### Exploración
 
-Para ver diferencias entre un **ver código fuente** y un **inspector de elementos**, por favor copien el siguiente código y péguenlo en Atom o Sublime Text, para luego guardarlo con extensión `.html` y abrirlo en un navegador web:
+Para encontrar las diferencias entre un **ver código fuente** y un **inspector de elementos**, por favor copien el siguiente código y péguenlo en Atom o Sublime Text, para luego guardarlo con extensión `.html` y abrirlo en un navegador web:
 
 ```
 <!doctype html>
