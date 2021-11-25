@@ -57,7 +57,7 @@ Revisen el código fuente, y noten que no existe un "Hola" antes del `<button id
 
 La manera en que se escriban las instrucciones puede variar dependiendo de la lógica de la misma instrucción, [el estándar que se está respetando](https://www.w3schools.com/js/js_versions.asp), (1) las (malas)costumbres de quien progreme, (2) la biblioteca (*library*) de JavaScript en que nos apoyemos o (3) el marco de trabajo (*framework*) de JavaScript en que nos basemos.
 
-1. Un ejemplo de (mala)costumbre: Usé `document.getElementById("especial")` cuando ya podría estar usando `document.querySelector("#especial")`. Si no tuviera esta (mala)costumbre, no me confundiría entre `document.getElementById()`, `document.getElementsByClassName()` o `document.getElementsByTagName()`.
+1. Un ejemplo de (mala)costumbre: Usé `document.getElementById("especial")` cuando ya podría estar usando `document.querySelector("#especial")`. Si no tuviera esta (mala)costumbre, no me confundiría recordando o escribiendo `document.getElementById()`, `document.getElementsByClassName()` o `document.getElementsByTagName()`.
 
 2. ¿Qué es una *library* de JavaScript? Es un montón de código preparado, que permite resolver cosas específicas, como [un gráfico](https://www.chartjs.org/), [un mapa](https://leafletjs.com/) o [una comparación de dos imágenes](https://image-compare-viewer.netlify.app/). Con una analogía cocinera: una biblioteca es como una sopa Maggi. 
 
