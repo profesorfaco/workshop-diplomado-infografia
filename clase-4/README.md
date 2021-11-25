@@ -126,7 +126,7 @@ Para comprender de mejor manera lo recién expuesto, practiquemos con el siguien
 ```
 Habría que copiar el código, para luego pegarlo en un documento nuevo creado en Atom o Sublime Text. Guardarlo con extensión `.html`, y abrirlo en su navegador web.
 
-En el código aprovechamos las variables `e` y `g`, además del [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach).
+En el código aprovechamos las variables `e` y `g`, además del método [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach).
 
 Para aprovechar la variable `h`, antes convendría revisar los métodos:
 
