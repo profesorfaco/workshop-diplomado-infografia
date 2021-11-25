@@ -75,9 +75,9 @@ La próxima clase podríamos revisar otra.
 
 #### Aplicación
 
-Como en las clases pasadas, hay algo preparado para poder profundizar de manera práctica https://profesorfaco.github.io/infografia/clase-3/
+Como en las clases pasadas, cuenta con algo preparado para profundizar de manera práctica https://profesorfaco.github.io/infografia/clase-3/
 
-En lo preparado se encontrarán 4 *scripts* y 5 usos de JavaScript (se suma un uso por el [carousel de Bootstrap](https://getbootstrap.com/docs/5.1/components/carousel/#how-it-works))
+En lo preparado encontrarán 4 *scripts* y 5 usos de JavaScript (se suma un uso por el [carousel de Bootstrap](https://getbootstrap.com/docs/5.1/components/carousel/#how-it-works))
 
 - - - - - - - -
 
