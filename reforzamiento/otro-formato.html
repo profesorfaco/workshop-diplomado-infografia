@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <style>
+            /* PODEMOS IMPORTAR, DE UN VIAJE, DOS FUENTES Y SUS RESPECTIVOS PESOS */
+
+            @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+
+            /* 
+            Vamos a contradecir a Bootstrap, partiendo con un par de variables
+            1) La que define la familia tipográfica que se aplica por defecto
+            2) La que define un color que podríamos reutilizar
+            */
+
+            :root {
+                --bs-body-font-family: "Roboto", sans-serif;
+                --bs-primary: #e65100 !important;
+            }
+
+            a {
+                color: #222;
+                text-decoration: underline;
+                transition: color ease 0.5s;
+            }
+            a:hover {
+                color: var(--bs-primary);
+                text-decoration: none;
+                transition: color ease 0.5s;
+            }
+
+            /* vamos a ajustar los pesos de algunos títulos a lo que dispone la fuente  */
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-weight: 400;
+                font-family: "PT Serif", serif;
+            }
+
+            /* vamos a ajustar los pesos de otros títulos y negrita a lo que dispone la fuente  */
+
+            h5,
+            h6 {
+                font-weight: 700;
+                font-family: "PT Serif", serif;
+            }
+
+            /* AQUÍ HAGO UN AJUSTE IDIOMÁTICO:  EL GRINGO ENFATIZA CON ITÁLICA. EN CASTELLANO NO LO HACEMOS ASÍ, ENFATIZAMOS CON PESO DE FUENTE, MANTENIENDO UN ESTILO NORMAL */
+
+            strong,
+            b,
+            em {
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            /* definiré un tamaño del título de primer nivel (h1) que se ajuste según el viewport width --> https://www.yunbitsoftware.com/blog/2017/06/22/viewport-units-css-que-es/ */
+
+            h1 {
+                font-size: calc(1rem + 3vw);
+            }
+
+            /* repetiré el truco anterior con el título de segundo nivel (h2), que, a diferencia del anterior, puedo ocupar varias veces en la misma página */
+
+            h2 {
+                font-size: calc(0.75rem + 1vw);
+            }
+
+            /* usaré el ">" entre el título se segundo nive (h2) y el lapso en la misma línea (span) --> https://techbrij.com/css-selector-adjacent-child-sibling */
+
+            h2 > span {
+                background: var(--bs-primary);
+                color: #fff;
+            }
+
+            /* sigamos con el título de tercer nivel (h3) */
+
+            h3 {
+                font-size: calc(1.5rem + 1vw);
+            }
+
+            /* HOMERO */
+
+            @keyframes corre {
+                0% {
+                    margin-left: -30vw;
+                }
+                100% {
+                    margin-left: 90vw;
+                }
+            }
+
+            #homero {
+                animation: corre 5s infinite;
+            }
+
+            /* con esto se puede replicar lo de Juan Pablo */
+
+            header{
+                background:linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url(cositas/bosque_borneo.jpeg);
+                background-size: cover;
+                background-position: center -250px;
+                background-repeat: no-repeat;
+            }            
+        </style>
+
+        <!--ESTO SERVIRÁ PARA COMPARAR UN ANTES Y UN DESPUÉS-->
+        <link href="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css" rel="stylesheet" />
+
+        <title>REPASO DANDO UN PASO</title>
+    </head>
+    <body>
+        <!--ESTE ES EL ENCABEZADO-->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 mx-auto">
+                        <img src="cositas/Orangutan_002.png" class="w-100" />
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-white">
+            <div class="row">
+                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                    <h2 class="text-center fst-italic mt-5"><span class="px-2 py-1">Nombre científico</span></h2>
+
+                    <h1 class="text-center py-3">Nombre común</h1>
+
+                    <p class="lead">En este párrafo, de clase lead, tenemos que capturar conectar lo que se ve arriba (el animal en su hábitat) y lo que se ve abajo (la gráfica del estado de conservación). Es recomendable que sea corto como un tweet (máximo de 280 caracteres, como los caracteres en éste parrafito).</p>
+
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 my-5 mx-auto">
+                            <style type="text/css">
+                                line,
+                                path {
+                                    fill: none;
+                                    stroke: #777777;
+                                    stroke-linecap: round;
+                                }
+                                .blanco {
+                                    fill: #ffffff;
+                                    font-size: 45px;
+                                }
+                                .gris {
+                                    fill: #777777;
+                                    font-size: 35px;
+                                }
+                                .no {
+                                    fill: #999999;
+                                }
+                                .si {
+                                    fill: var(--bs-primary);
+                                }
+                            </style>
+                            <g id="ex">
+                                <circle class="no" cx="82.1" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 54 245)" class="blanco">EX</text>
+                            </g>
+                            <g id="ew">
+                                <circle class="no" cx="212.6" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 180 245)" class="blanco">EW</text>
+                            </g>
+                            <g id="cr">
+                                <circle class="si" cx="342.9" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 313 245)" class="blanco">CR</text>
+                            </g>
+                            <g id="en">
+                                <circle class="no" cx="473.6" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 444 245)" class="blanco">EN</text>
+                            </g>
+                            <g id="vu">
+                                <circle class="no" cx="603.8" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 574 245)" class="blanco">VU</text>
+                            </g>
+                            <g id="nt">
+                                <circle class="no" cx="734.1" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 705 245)" class="blanco">NT</text>
+                            </g>
+                            <g id="lc">
+                                <circle class="no" cx="865.6" cy="228.7" r="46.4" />
+                                <text transform="matrix(1 0 0 1 840 245)" class="blanco">LC</text>
+                            </g>
+                            <g id="datos">
+                                <text transform="matrix(1 0 0 1 29.8186 54.2935)" class="gris">Extinto</text>
+                                <text transform="matrix(1 0 0 1 382.5784 54.2935)" class="gris">Amenazado</text>
+                                <text transform="matrix(1 0 0 1 760.9694 54.2935)" class="gris">Preocupación</text>
+                                <text transform="matrix(1 0 0 1 812.2867 95.3477)" class="gris">menor</text>
+                                <line class="st6" x1="865.6" y1="119.4" x2="865.6" y2="162.5" />
+                                <line class="st6" x1="82.1" y1="77.9" x2="82.1" y2="162.5" />
+                                <path
+                                    class="st6"
+                                    d="M279.3,162.5v-55.2c0-6,4.8-10.8,10.8-10.8h161.1c4.4,0,7.9-0.3,10.4-0.9c2.6-0.5,5-1.9,7-3.8 c2.6-3.3,4.1-6,4.3-8.6c0.2,2.6,1.7,5.3,4.3,8.6c2.1,2.1,4.4,3.3,7,3.8c2.6,0.5,6.2,0.9,10.4,0.9h163.2c6,0,10.8,4.8,10.8,10.8v55.2"
+                                />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--ESTE ES EL CONTENIDO PRINCIPAL, ESTÁ DIVIVIDO EN VARIAS SECCIONES-->
+        <main class="pb-5">
+            <!--SECCIÓN ANCHA-->
+            <section id="seccion_ancha">
+                <div class="container-fluid g-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <!--VAMOS A INCLUIR TRES SVG EN UN CARRUSEL-->
+                            <div id="carruselConMapa" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carruselConMapa" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carruselConMapa" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carruselConMapa" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="1000">
+                                        <object class="d-block w-100" data="cositas/mapa-1.svg" type="image/svg+xml"></object>
+                                        <div class="carousel-caption">
+                                            <h5>1950</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="1000">
+                                        <object class="d-block w-100" data="cositas/mapa-2.svg" type="image/svg+xml"></object>
+                                        <div class="carousel-caption">
+                                            <h5>1970</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="1000">
+                                        <object class="d-block w-100" data="cositas/mapa-3.svg" type="image/svg+xml"></object>
+                                        <div class="carousel-caption">
+                                            <h5>2000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto my-5">
+                            <p>Pero no podemos dejar que todo se acabe en el encabezado. Corresponde ofrecer, en este párrafo desclasado, razones para bajar por distintas secciones (section), llegando al pie de página (footer). Nuevamente, que sea como un tweet (aquí también pueden contar sólo 280 caracteres).</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--SECCIÓN COMPARATIVA-->
+            <section class="container" id="seccion_comparativa">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5 mb-3">Sección comparativa</h3>
+                        <object data="cositas/grafico-tamanos.svg" type="image/svg+xml" class="my-3"></object>
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+                    </div>
+                </div>
+            </section>
+            <!--SECCIÓN YUXTAPUESTA-->
+            <section class="container" id="seccion_yuxtapuesta">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5 mb-3">Sección yuxtapuesta</h3>
+                        <div id="yuxtaposicion" class="my-3">
+                            <img src="cositas/beirut-antes.jpg" alt="describa…" />
+                            <img src="cositas/beirut-despues.jpg" alt="describa…" />
+                        </div>
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+                    </div>
+                </div>
+            </section>
+            <!--SECCIÓN MOVILIZADA-->
+            <section class="container" id="seccion_movilizada">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5 mb-3">Sección movilizada</h3>
+
+                        <!--INTERACCIÓN-->
+                        
+                        <h4 class="text-center mt-5 mb-3">Interacción</h4>
+                        <div class="row">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                                <style type="text/css">
+                                    .lineas {fill: none; stroke: #585453; stroke-linecap: round; stroke-miterlimit: 10; }
+                                </style>
+                                <path id="arriba" class="lineas" d="M5,50C5,50,57.7-5.9,110,5c52.3,10.9,85,80,85,80" />
+                                <path id="abajo" class="lineas" d="M25,35c0,0,14.1,55.5,75,60c59.5,4.4,70-45,70-45" />
+                                <circle id="iris" class="lineas" cx="105" cy="50" r="40" />
+                                <circle id="poca_luz" fill="back" cx="105" cy="50" r="35" />
+                                <ellipse id="mucha_luz" fill="back" cx="105" cy="50" rx="10" ry="35" class="d-none" />
+                            </svg>
+                        </div>
+                        <div class="small fw-bold text-center my-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="radioNocturno" value="nocturno" onchange="getValue(this)" checked />
+                                <label class="form-check-label" for="radioNocturno">DE NOCHE</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="radioDiurno" value="diurno" onchange="getValue(this)" />
+                                <label class="form-check-label" for="radioDiurno">DE DÍA</label>
+                            </div>
+                        </div>
+
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+
+                        <!--ANIMACIÓN CON SVG-->
+                        
+                        <h4 class="text-center mt-5 mb-3">Animación con SVG</h4>
+                        <object class="mx-5" data="cositas/moves.svg" type="image/svg+xml"></object>
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+
+                        <!--ANIMACIÓN CON SVG y CSS-->
+
+                        <h4 class="text-center mt-5 mb-3">Animación con SVG y CSS</h4>
+                        <object class="mx-5" data="cositas/el-grito.svg" type="image/svg+xml"></object>
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+
+                        <!--ANIMACIÓN CON GIF y CSS-->                        
+
+                        <h4 class="text-center mt-5 mb-3">Animación con GIF y CSS</h4>
+                        <div class="mb-4 w-100 bg-light overflow-hidden">
+                            <img src="cositas/corre.gif" class="w-50" id="homero" />
+                        </div>
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+
+                        <!--ANIMACIÓN CON GIF-->                        
+
+                        <h4 class="text-center mt-5 mb-3">Animación con GIF</h4>
+                        <div class="text-center pb-4">
+                            <img src="cositas/vuela.gif" class="w-50 mx-auto" />
+                        </div>
+                        <p>Este es un lorem ipsum dolor sit amet, consectetur adipiscing elit. Pero no es un loren ipsum para papel, es para pantalla, donde <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank" title="How Users Read on the Web">es recomendable</a> <em>destacar palabras clave</em>, ofrecer <a href="https://www.nngroup.com/videos/plain-language-for-experts/" target="_blank" title="Plain Language For Everyone, Even Experts">una idea por párrafo</a> (que sea clara para <a href="https://www.nngroup.com/videos/biggest-mistake-writing-web/" target="_blank" title="The Biggest Mistake in Writing for the Web">tu público objetivo</a>) y usar el estilo de pirámide invertida (incluyendo en cada pirámide lo que se acaba de <a href="https://youtu.be/iEB3oILm-qQ?t=2063" target="_blank" title="Charla del Dr. Mario García">mostrar o se mostrará</a> a continuación).</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--ESTE ES EL PIE DE PÁGINA-->
+        <footer class="bg-dark text-white-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col py-3">
+                        <p class="text-center small">Revisa <a href="index.html" class="link-light">el formato</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- UNA VEZ EL NAVEGADOR HAYA LEIDO TODO, PODEMOS MANIPULAR SU COMPRENSIÓN-->
+        <!--EL SIGUIENTE PROGRAMITA CAMBIA EL OJO-->
+        <script>
+            function getValue(radio) {
+                if (radio.value == "nocturno") {
+                    document.getElementById("poca_luz").classList.remove("d-none");
+                    document.getElementById("mucha_luz").classList.add("d-none");
+                } else {
+                    document.getElementById("poca_luz").classList.add("d-none");
+                    document.getElementById("mucha_luz").classList.remove("d-none");
+                }
+            }
+        </script>
+        <!--BOOTSTRAP OFRECE SU PROPIA BIBLIOTECA DE JAVASCRIPT-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!--LO QUE SIGUE ES OTRA BIBLIOTECA DE JAVASCRIPT-->
+        <script src="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js"></script>
+        <!--LO QUE SIGUE ES LA CONFIGURACIÓN DE LA COMPARACIÓN DE IMÁGENES-->
+        <script>
+            const element = document.querySelector("#yuxtaposicion");
+            const options = {
+                controlColor: "#fff",
+                controlShadow: true,
+                addCircle: true,
+                addCircleBlur: true,
+                showLabels: true,
+                labelOptions: {
+                    before: "Cara",
+                    after: "Sello",
+                    onHover: false,
+                },
+            };
+            const viewer = new ImageCompare(element, options).mount();
+        </script>
+    </body>
+</html>
