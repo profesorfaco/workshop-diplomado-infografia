@@ -6,7 +6,7 @@
 	.st0{fill:#1B330F;}
 	.st1{fill:#E65100;}
 </style>
-<image style="overflow:visible;" width="2000" height="500" id="foto" xlink:href="reforzamiento/cositas/boscoso.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+<image style="overflow:visible;" width="2000" height="500" id="foto" xlink:href="boscoso.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <g id="paso-3">
 	<path class="st0" d="M350.4,187.5l-0.2,2.1l-0.2-3.8L350.4,187.5l1.7-17.3l1.7-19.4l0.1-0.8c0-0.3,0-0.7,0-1l-3-20.1
