@@ -19,7 +19,7 @@ Para hacer una prueba más calmada, hay un par de servicios en línea que podrí
 
 1. Para revisar el código: https://validator.w3.org/nu/
 
-2. Para revisar la accesibilidad: https://wave.webaim.org/r
+2. Para revisar la accesibilidad: https://wave.webaim.org/
 
 Ahora bien, para hacer una auditoría completa, que considere "performance", "accesibility", "best practices", "seo", hasta "pwa", podrías usar:
 
