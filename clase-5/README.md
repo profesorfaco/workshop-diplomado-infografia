@@ -29,9 +29,9 @@ Es probable que LightHouse de indicaciones respecto del CCS, porque estamos apro
 
 Para reducir el CSS a lo que realmente es aplicado, puede aprovecharse https://purifycss.online/ o algún otro truco explicado en https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/
 
-Hasta aquí hemos considerado, principalmente, a las personas (acceso) y los navegadores (rendimiento) ¡Pero aún no consideramos a las máquinas!
+**Hasta aquí hemos considerado, principalmente, a las personas (acceso) y los navegadores (rendimiento) ¡Pero aún no consideramos a las máquinas!**
 
-Las máquinas necesitan datos o, mejor dicho, metadatos para catalogar y compartir sus trabajo publicado en línea. Para cuidar los metadatos, es recomendable:
+Las máquinas necesitan datos o, mejor dicho, metadatos. Con ellos pueden catalogar lo que ustedes publican en línea. Para cuidar los metadatos, es recomendable:
 
 1. Hacer una revisión con https://www.heymeta.com/
 
