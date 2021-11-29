@@ -24,7 +24,7 @@ Las clases con presentación, exploración y aplicación se apoyarán en GitHub 
 
 [Clase 5 → Jueves → 02-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Accesibilidad, usabilidad y rendimiento
 
-[Clase 6 → Martes → 09-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Revisión de avance
+[Clase 6 → Jueves → 09-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-6) → Revisión de avance
 
 - - - - - - - - - - - - 
 
