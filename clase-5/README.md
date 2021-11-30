@@ -7,7 +7,7 @@
 
 #### Presentación
 
-Hay un par de prueba rápidas que se puede hacer en cualquier página web.
+**Hay un par de prueba rápidas que se puede hacer en cualquier página web**.
 
 1. Si se está visitando la página con Chrome, se puede buscar en el menú la opción Editar > Voz > Empezar a hablar.
 
@@ -15,13 +15,13 @@ Hay un par de prueba rápidas que se puede hacer en cualquier página web.
 
 **Lo que resulte de 1 y 2, debería hacer sentido**.
 
-Para hacer una prueba más calmada, hay un par de servicios en línea que podrían aprovechar:
+**Para hacer una prueba más calmada, hay un par de servicios en línea que podrían aprovechar**:
 
 1. Para revisar el código: https://validator.w3.org/nu/
 
 2. Para revisar la accesibilidad: https://wave.webaim.org/
 
-Ahora bien, para hacer una auditoría completa, que considere "performance", "accesibility", "best practices", "seo", hasta "pwa", podrías usar:
+Ahora bien, **para hacer una auditoría completa**, que considere "performance", "accesibility", "best practices", "seo", hasta "pwa", podrías usar:
 
 https://developers.google.com/web/tools/lighthouse?hl=es
 
