@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>¡Hola fetch!</title>
+    </head>
+    <body>
+        <h1>Por favor revisen la consola de JavaScript</h1>
+        <ul id="listado"></ul>
+        <script>
+            fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson')
+            .then(response => response.json())
+            .then(data => { 
+            	var t = data.features;
+            	console.log(t);
+            	t.forEach(i =>{
+            		document.querySelector('#listado').innerHTML += "<li>"+i['properties']['place']+"</li>"
+            	})
+            }
+            );
+        </script>
+    </body>
+</html>
