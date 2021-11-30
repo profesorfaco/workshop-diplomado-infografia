@@ -20,6 +20,8 @@ Las clases con presentación, exploración y aplicación se apoyarán en GitHub 
 
 [Clase 3 → Jueves → 25-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-3) → HTML, SVG, CSS y JavaScript
 
+[Reforzamiento → Sábado → 27-11-2021](https://profesorfaco.github.io/infografia/reforzamiento/) → HTML, SVG, CSS y JavaScript
+
 [Clase 4 → Martes → 30-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-4) → JavaScript: Datos y bibliotecas
 
 [Clase 5 → Jueves → 02-12-2021](https://github.com/profesorfaco/infografia/tree/main/clase-5) → Accesibilidad, usabilidad y rendimiento
