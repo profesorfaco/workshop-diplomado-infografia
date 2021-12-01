@@ -177,11 +177,13 @@ Con tal petición, podemos aprovechar muchos datos que ya están en línea:
 
 #### Aplicación
 
-Revisemos dos ejemplos más de uso de JavaScript: 
+Revisemos ~~dos~~ tres ejemplos más de uso de JavaScript: 
 
 - El primero podría ser aplicado en la infografía que trabajan, en caso necesiten [seleccionar elementos en un SVG](https://profesorfaco.github.io/infografia/clase-4/favoritismo.html).
 
 - El segundo podría servir para otroso trabajos, extendiendo lo que hemos visto sobre [consulta de datos en línea y Bootstrap](https://profesorfaco.github.io/infografia/clase-4/elecciones.html)
+
+- Sumo un tercer ejemplo, que mezcla los dos anteriores: https://profesorfaco.github.io/infografia/clase-4/temblores.html
 
 Tales ejemplos tienen por objetivo mostrarles el potencial de dos herramientas que podrían, incluso, mezclar en sus propias infografías.
 
