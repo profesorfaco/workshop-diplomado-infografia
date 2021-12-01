@@ -21,11 +21,11 @@
 
 2. Para revisar la accesibilidad: https://wave.webaim.org/
 
-Ahora bien, **para hacer una auditoría completa**, que considere "performance", "accesibility", "best practices", "seo", hasta "pwa", podrías usar:
+Ahora bien, **para hacer una auditoría completa**, que considere rendimiento, accesibilidad, buenas práctica de programación, SEO (Search Engine Optimization; posicionamiento en buscadores) y PWA (Progressive Web App), **podrías usar [LightHouse](https://developers.google.com/web/tools/lighthouse?hl=es)**.
 
-https://developers.google.com/web/tools/lighthouse?hl=es
+Lighthouse genera reportes en dos versiones: [resumida](https://github.com/profesorfaco/infografia/tree/main/clase-5/reportes) o extendida.
 
-Es probable que LightHouse de indicaciones respecto del CCS, porque estamos aprovechando unas pocas líneas entre las muchísimas que ofrece Bootstrap. Consideren que Bootstrap ofrece un estilo CSS muy grande, de 1.222 líneas, que el navegador revisa completo antes de mostrar la página, y siempre conviene limitar la lectura a lo estrictamente necesario. 
+Es probable que LightHouse dé indicaciones respecto del CCS, porque estamos aprovechando unas pocas líneas entre las muchísimas que ofrece Bootstrap. Consideren que Bootstrap ofrece [un estilo CSS muy grande](https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css), de 11.266 líneas, que el navegador revisa completo antes de mostrar la página; y siempre conviene limitar las lecturas del navegador a lo estrictamente necesario. 
 
 Para reducir el CSS a lo que realmente es aplicado, puede aprovecharse https://purifycss.online/ o algún otro truco explicado en https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/
 
@@ -36,6 +36,9 @@ Las máquinas necesitan datos o, mejor dicho, metadatos. Con ellos pueden catalo
 1. Hacer una revisión con https://www.heymeta.com/
 
 2. Hacer una edición con https://megatags.co/ 
+
+Al cuidar los [metadatos, cuidamos el posicionamiento en buscadores (SEO)](https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es)
+
 
 - - - - - - - 
 
