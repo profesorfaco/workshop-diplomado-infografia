@@ -64,7 +64,7 @@ Y en todos los casos podemos mejorar el *SEO* con dos movidas simples:
 
 #### Aplicación
 
-Ya tenemos avances de tabajo grupal en repositorios de organización.
+Ya tenemos avances de trabajo grupal en repositorios de organización.
 
 Ahora haremos 3 cosas, en orden: 
 
