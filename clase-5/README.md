@@ -12,7 +12,7 @@
 
 2. Si se está visitando la página con Firefox, se puede buscar en el menú la opción Ver > Estilo de página > sin estilo.
 
-Lo que se dicte o se vea sin estilo, aun **podría ser utilizado por usuarios específicos para alcanzar objetivos específicos con algo de eficacia, eficiencia y satisfacción, en un contexto de uso específico**.
+Lo que se dicte o se vea sin estilo, aun **podría ser utilizado por usuarios específicos para alcanzar objetivos específicos con un mínimo de eficacia, eficiencia y satisfacción, en un contexto de uso específico**.
 
 Lo destacado en el párrafo anterior es una definición de usabilidad: 
 
