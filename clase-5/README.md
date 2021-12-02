@@ -30,6 +30,8 @@ Es probable que el reporte de LightHouse dé indicaciones respecto del CCS, porq
 
 Para reducir el CSS a lo que realmente es aplicado, puede aprovecharse https://purifycss.online/ o algún otro truco explicado en https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/
 
+Ay, cierto. Sobre CSS --> https://webaim.org/resources/contrastchecker/
+
 También es probable que el reporte de LightHouse dé indicaciones respecto del SEO, porque las máquinas necesitan datos o, mejor dicho, metadatos. Con ellos pueden catalogar cada página web. Para cuidar los metadatos, es recomendable:
 
 1. Hacer una revisión con https://www.heymeta.com/
