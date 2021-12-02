@@ -181,7 +181,7 @@ Revisemos ~~dos~~ tres ejemplos más de uso de JavaScript:
 
 - El primero podría ser aplicado en la infografía que trabajan, en caso necesiten [seleccionar elementos en un SVG](https://profesorfaco.github.io/infografia/clase-4/favoritismo.html).
 
-- El segundo podría servir para otroso trabajos, extendiendo lo que hemos visto sobre [consulta de datos en línea y Bootstrap](https://profesorfaco.github.io/infografia/clase-4/elecciones.html)
+- El segundo podría servir para otroso trabajos, extendiendo lo que hemos visto sobre [consulta de datos en línea y Bootstrap](https://profesorfaco.github.io/infografia/clase-4/elecciones-1.html)
 
 - Sumo un tercer ejemplo, que mezcla los algo de los anteriores, se consultan datos en línea y se modifica su despliegue según lo que se seleccione: https://profesorfaco.github.io/infografia/clase-4/temblores.html
 
