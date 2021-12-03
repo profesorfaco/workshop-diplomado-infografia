@@ -81,7 +81,9 @@ Entre 2 y 3 deben dejar pasar algunos minutos (aprovechen de estirarse, ir a bus
 
 - - - - - - - -
 
-**APROVECHANDO EL TIEMPO ANTES DEL FIN DE LA CLASE, COMPLETEMOS EL [TALLER](https://github.com/profesorfaco/infografia/tree/main/taller)**
+**APROVECHANDO EL TIEMPO QUE RESTA HASTA EL FINAL DE LA CLASE:**
+
+COMPLETEMOS EL [TALLER](https://github.com/profesorfaco/infografia/tree/main/taller)
 
 - - - - - - - -
 
