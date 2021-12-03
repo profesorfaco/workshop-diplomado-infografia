@@ -78,6 +78,11 @@ Ahora haremos 3 cosas, en orden:
 
 Entre 2 y 3 deben dejar pasar algunos minutos (aprovechen de estirarse, ir a buscar un vaso de agua); recuerden que el servidor de GitHub Pages puede ser un poco lento en reaccionar a los cambios.
 
+
+- - - - - - - -
+
+**APROVECHANDO EL TIEMPO ANTES DEL FIN DE LA CLASE, COMPLETEMOS EL [TALLER](https://github.com/profesorfaco/infografia/tree/main/taller)**
+
 - - - - - - - -
 
 ###### [← CLASE PASADA](https://github.com/profesorfaco/infografia/tree/main/clase-4) — [CLASE SIGUIENTE →](https://github.com/profesorfaco/infografia/tree/main/clase-6) 
