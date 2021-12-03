@@ -4,7 +4,7 @@
 
 En el [taller](https://github.com/profesorfaco/infografia/tree/main/taller) que sumamos a la segunda parte de la [clase 5](https://github.com/profesorfaco/infografia/tree/main/clase-5), crearon un boceto acabado de infografía digital, a partir de un [*pantallazo*](https://www.site-shot.com/) que luego pudieron *photoshopear*.
 
-Tal boceto fue agregado al README.md de un repositorio de organización, en formato JPG o PNG. 
+Tal boceto fue agregado, en formato JPG o PNG, al `README.md` de un repositorio de organización. 
 
 Recuerden que pueden optimizar tales formatos de imagen con [opciones de Photoshop](https://helpx.adobe.com/es/photoshop-elements/using/optimizing-images.html) o con herramientas en línea: https://squoosh.app/ o https://tinypng.com/  
 
