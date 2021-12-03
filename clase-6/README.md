@@ -10,7 +10,7 @@ Recuerden que pueden optimizar tales formatos de imagen con [opciones de Photosh
 
 En el mismo repositorio grupal, que ya tiene su boceto, subieron la versión más reciente de su trabajo con [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS), [SVG](https://developer.mozilla.org/es/docs/Web/SVG) y [JavaScript](https://jsparagatos.com/). Trabajo que se hace aprovechando el material de la clase de [reforzamiento](https://profesorfaco.github.io/infografia/reforzamiento/) y otras ([1](https://github.com/profesorfaco/infografia/tree/main/clase-1), [2](https://github.com/profesorfaco/infografia/tree/main/clase-2), [3](https://github.com/profesorfaco/infografia/tree/main/clase-3) o [4](https://github.com/profesorfaco/infografia/tree/main/clase-4)).
 
-**Lo recién descrito es el avance que se requiere para esta revisión:**
+**Lo recién descrito, es el avance requerido para esta revisión:**
 
 - https://github.com/Gibon-de-manos-blancas/avance
 - https://github.com/Grulla-de-Cuello-Blanco/avance
