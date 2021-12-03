@@ -40,7 +40,7 @@ Si un efecto interrumple la historia que ocurre verticalmente, lo mejor sería e
 > …es un puro Instagram. Una imagen con texto. Así es como contamos historias, y es lo que ustedes hacen en el teléfono. Si yo agarro el teléfono de ustedes en este momento veríamos que si están haciendo un *taste* de algo [dirían]: He llegado a este restaurant, mira que hermoso, foto; ahora me acaban de servir un plato de sushi, mira que bien, foto. Escribimos y mostramos
 > [Dr. Mario García](https://youtu.be/iEB3oILm-qQ?t=2063).
 
-Una vez tengan su boceto, en formato JPG o PNG, lo podrían subir al README.md de un repositorio creado en su repositorio de organización; ese repositorio debe tener un nombre claro, que permita identificar que allí están haciendo una definición, por ejemplo: "final", "entrega", "resultado", etc.
+Una vez tengan su boceto, en formato JPG o PNG, lo podrían subir al README.md de un repositorio creado en su cuenta de organización; ese repositorio debe tener un nombre claro, como "avance".
 
 
 
