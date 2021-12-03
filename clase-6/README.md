@@ -12,6 +12,16 @@ En el mismo repositorio grupal, que ya tiene su boceto, subieron la versión má
 
 **Lo recién descrito es el avance que se requiere para esta revisión.**
 
+- https://github.com/Gibon-de-manos-blancas/avance
+- https://github.com/Grulla-de-Cuello-Blanco/avance
+- https://github.com/hipopotamo-pigmeo/avance
+- https://github.com/Infografia-panda-rojo/avance
+- https://github.com/lemur-cola-anillada/avance
+- https://github.com/orangutan-borneo-uc/avance
+- https://github.com/oso-malayo/avance
+- https://github.com/Siamang-infografia/avance
+- https://github.com/tapir-amazonico/avance
+- https://github.com/Tigre-de-Bengala/avance
 
 
 
