@@ -1,6 +1,6 @@
 # Infografía digital: Accesibilidad, usabilidad y rendimiento
 
-### Clase 5 → 04-12-2021
+### Clase 5 → 02-12-2021
 
 - - - - - - - 
 
