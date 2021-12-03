@@ -41,15 +41,6 @@ Si un efecto interrumple la historia que ocurre verticalmente, lo mejor sería e
 
 Una vez tengan su boceto, en formato JPG o PNG, lo podrían subir al README.md de un repositorio creado en su cuenta de organización; ese repositorio debe tener un nombre claro, como "avance".
 
-| ESPECIE ANIMAL | AVANCE        |
-|:---------------|:--------------------|
-| Gibón de manos blancas | … |
-| Grulla de cuello blanco | … |
-| Hipopótamo pigmeo | … |
-| Panda rojo | … |
-| Lemur cola anillada | … |
-| Orangután de Borneo | … |
-| Oso malayo | … | 
-| Siamang | … | 
-| Tapir amazónico | … | 
-| Tigre de bengala | … |
+- - - - - - - -
+
+###### [PRÓXIMA CLASE →](https://github.com/profesorfaco/infografia/tree/main/clase-6)
