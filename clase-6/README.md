@@ -12,16 +12,16 @@ Recuerden que pueden optimizar tales formatos de imagen con [opciones de Photosh
 
 **Lo recién descrito, es el avance requerido para esta revisión:**
 
-- https://github.com/Gibon-de-manos-blancas/avance
-- https://github.com/Grulla-de-Cuello-Blanco/avance
+- https://github.com/Gibon-de-manos-blancas/avance ✓
+- https://github.com/Grulla-de-Cuello-Blanco/avance ✓
 - https://github.com/hipopotamo-pigmeo/avance
 - https://github.com/Infografia-panda-rojo/avance
 - https://github.com/lemur-cola-anillada/avance
-- https://github.com/orangutan-borneo-uc/avance
+- https://github.com/orangutan-borneo-uc/avance ✓
 - https://github.com/oso-malayo/avance
-- https://github.com/Siamang-infografia/avance
+- https://github.com/Siamang-infografia/avance ✓
 - https://github.com/tapir-amazonico/avance
-- https://github.com/Tigre-de-Bengala/avance
+- https://github.com/Tigre-de-Bengala/avance ✓
 
 
 
