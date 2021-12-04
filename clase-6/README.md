@@ -10,7 +10,7 @@ Recuerden que pueden optimizar tales formatos de imagen con [opciones de Photosh
 
 **En el mismo repositorio de organización, que ya tiene su boceto**, pudieron subir la versión más reciente de su trabajo con [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS), [SVG](https://developer.mozilla.org/es/docs/Web/SVG) y [JavaScript](https://jsparagatos.com/). Trabajo que se hace aprovechando el material de la clase de [reforzamiento](https://profesorfaco.github.io/infografia/reforzamiento/) y otras ([1](https://github.com/profesorfaco/infografia/tree/main/clase-1), [2](https://github.com/profesorfaco/infografia/tree/main/clase-2), [3](https://github.com/profesorfaco/infografia/tree/main/clase-3) o [4](https://github.com/profesorfaco/infografia/tree/main/clase-4)).
 
-En base a sus bocetos y trabajado en código, decidimos por algunos elementos que nos permitirán uniformas las entregas, que **ya pueden tomar de [este ejemplo](https://profesorfaco.github.io/infografia/taller/uniforme/)**:
+En base a sus bocetos y trabajado en código, decidimos por algunos elementos que nos permitirán uniformar las entregas, que **ya pueden tomar de [este ejemplo](https://profesorfaco.github.io/infografia/taller/uniforme/)**:
 
 - Sus nombres irán justo debajo del título principal, con detalles a desplegarse (como en [SCMP Infographics](https://www.scmp.com/infographic/)).
 
