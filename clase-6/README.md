@@ -24,7 +24,7 @@ Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de
 
 - - - - - - - - -
 
-**Lo descrito es la base para lo que revisaremos en las direcciones que se indican en la siguiente tabla:**
+**Haremos la revisión de avance en las direcciones que se indican en la siguiente tabla:**
 
 | Especie | Boceto en `README.md` | Avance    |
 |:--------|:---------------------|:----------|
