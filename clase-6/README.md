@@ -12,7 +12,7 @@ Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de
 
 - - - - - - - 
 
-**En base al material preparado para cada clase, y su trabajo en repositorio de organización, ahora tenemos algunos elementos que nos permitirán uniformar las entregas. Elementos que ya pueden tomar desde [la página operativa](https://profesorfaco.github.io/infografia/taller/uniforme/) o desde la [carpeta uniforme](https://github.com/profesorfaco/infografia/tree/main/taller/uniforme), dentro de la carpeta taller, en este repositorio.**:
+**En base al material preparado para cada clase, y su trabajo en repositorio de organización, ahora tenemos algunos elementos que nos permitirán uniformar las entregas. Elementos que ya pueden tomar desde [la página operativa](https://profesorfaco.github.io/infografia/taller/uniforme/) o desde la [carpeta uniforme](https://github.com/profesorfaco/infografia/tree/main/taller/uniforme), dentro de la carpeta taller, en este repositorio**:
 
 - Sus nombres irán justo debajo del título principal, con detalles a desplegarse (tal como en [SCMP Infographics](https://www.scmp.com/infographic/)).
 
