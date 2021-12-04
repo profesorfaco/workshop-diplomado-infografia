@@ -10,7 +10,11 @@ Recuerden que pueden optimizar tales formatos de imagen con [opciones de Photosh
 
 **En el mismo repositorio de organización, que ya tiene su boceto**, pudieron subir la versión más reciente de su trabajo con [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS), [SVG](https://developer.mozilla.org/es/docs/Web/SVG) y [JavaScript](https://jsparagatos.com/). Trabajo que se hace aprovechando el material de la clase de [reforzamiento](https://profesorfaco.github.io/infografia/reforzamiento/) y otras ([1](https://github.com/profesorfaco/infografia/tree/main/clase-1), [2](https://github.com/profesorfaco/infografia/tree/main/clase-2), [3](https://github.com/profesorfaco/infografia/tree/main/clase-3) o [4](https://github.com/profesorfaco/infografia/tree/main/clase-4)).
 
-**En base al material y su trabajo, decidimos por algunos elementos que nos permitirán uniformar las entregas. Elementos que ya pueden tomar desde [la página operativa](https://profesorfaco.github.io/infografia/taller/uniforme/) o desde la [carpeta uniforme](https://github.com/profesorfaco/infografia/tree/main/taller/uniforme), dentro de la carpeta taller, en este repositorio.**:
+Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de organización: *Necesitamos que tengan el mismo nombre: **avance**. Para cambiarlo: https://docs.github.com/es/repositories/creating-and-managing-repositories/renaming-a-repository*
+
+- - - - - - - 
+
+**En base al material preparado para cada clase y su trabajo en repositorio de organización, ahora tenemos algunos elementos que nos permitirán uniformar las entregas. Elementos que ya pueden tomar desde [la página operativa](https://profesorfaco.github.io/infografia/taller/uniforme/) o desde la [carpeta uniforme](https://github.com/profesorfaco/infografia/tree/main/taller/uniforme), dentro de la carpeta taller, en este repositorio.**:
 
 - Sus nombres irán justo debajo del título principal, con detalles a desplegarse (tal como en [SCMP Infographics](https://www.scmp.com/infographic/)).
 
