@@ -12,7 +12,7 @@ Las clases a cargo de Felipe Cortez se dividirá de la siguiente manera:
 
 **20:30 a 21:30 hrs. → Aplicación** → Demostración del aprovechamiento de lo presentado y explorado, con la resolución autónoma de un desafío.
 
-Las clases con presentación, exploración y aplicación se apoyarán en GitHub y llevarán a cabo en las siguientes fechas:
+**Las clases con presentación, exploración y aplicación se apoyarán en GitHub y llevarán a cabo en las siguientes fechas:**
 
 [Clase 1 → Jueves → 18-11-2021](https://github.com/profesorfaco/infografia/tree/main/clase-1) → HTML y CSS
 
