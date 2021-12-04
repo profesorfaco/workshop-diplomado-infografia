@@ -70,7 +70,7 @@ Ya tenemos avances de trabajo grupal en repositorios de organización.
 
 Ahora haremos 3 cosas, en orden: 
 
-1) Agregar metadatos dentro del `<head>…</head>` del [index.html]
+1) Agregar metadatos dentro del `<head>…</head>` del index.html
 
 2) Agregar atributos `alt="…"` en las `<img>`.
 
