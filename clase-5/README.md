@@ -22,7 +22,7 @@ Accesibilidad implica acceso al uso. Usabilidad implica eficacia, eficiencia y s
 
 **II. Si se cuenta con más tiempo, podemos complementar las pruebas rápidas y extremas recién mencionadas. Podríamos usar [WAVE: Web Accessibility Evaluation Tool](https://wave.webaim.org/)**.
 
-Un problema común en la evaluación es la falta de contraste figura/fondo. Este se puede resolver poniendo revisando y ajustando los código de colores figura/fondo en https://webaim.org/resources/contrastchecker/
+Un problema común en la evaluación es la falta de contraste figura/fondo. Este se puede resolver revisando y ajustando los código de colores figura/fondo en https://webaim.org/resources/contrastchecker/
 
 **III. Para hacer una auditoría desde la perpsectiva de la máquina**, que considere rendimiento, accesibilidad, buenas práctica de programación, SEO (Search Engine Optimization; posicionamiento en buscadores) y PWA (Progressive Web App), **podemos usar [LightHouse](https://developers.google.com/web/tools/lighthouse?hl=es)**.
 
