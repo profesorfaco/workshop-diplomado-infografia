@@ -16,7 +16,7 @@ Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de
 
 - Sus nombres justo debajo del título principal, con detalles a desplegarse (tal como en [SCMP Infographics](https://www.scmp.com/infographic/)).
 
-- Las fuentes informativas, agradecimientos e imagen de la versión impresa de su infografía (tal como en [El Mercurio: Infografías Digitales](http://infografias.elmercurio.com/)). 
+- Las fuentes informativas, agradecimientos e imagen de [la versión impresa](https://drive.google.com/drive/folders/1OmYADzkYFF7FnujnnZ98mQIHIyosC-q_?usp=sharing) de su infografía (tal como en [El Mercurio: Infografías Digitales](http://infografias.elmercurio.com/)). 
 
 - Vínculo a las infografías digitales de otros grupos. 
 
