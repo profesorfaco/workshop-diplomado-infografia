@@ -24,9 +24,9 @@ Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de
 
 - - - - - - - - -
 
-**Haremos la revisión de avance en las direcciones que se indican en la siguiente tabla:**
+**Todos los profesores haremos la revisión de avance en las direcciones que se indican en la siguiente tabla:**
 
-| Especie | Boceto en `README.md` | Avance    |
+| Especie | Boceto en `README.md` | Página avanzada    |
 |:--------|:---------------------|:----------|
 | Gibón de manos blancas | https://github.com/Gibon-de-manos-blancas/avance | https://gibon-de-manos-blancas.github.io/avance/ |
 | Grulla de cuello blanco | https://github.com/Grulla-de-Cuello-Blanco/avance | https://grulla-de-cuello-blanco.github.io/avance |
