@@ -39,7 +39,16 @@ Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de
 | Tapir amazónico | https://github.com/tapir-amazonico/avance | https://tapir-amazonico.github.io/avance | 
 | Tigre de bengala | https://github.com/Tigre-de-Bengala/avance | https://tigre-de-bengala.github.io/avance/ |
 
-**Grulla de cuello blanco** no activo GitHub Pages. **Panda rojo** debe tener un `index.html`, y activar GitHub Pages en caso no lo haya hecho.
+
+La evaluación cruzada de avance se basará en los mismos criterios que serán utilizados en su entrega de la próxima semana:
+
+1. Boceto en el `README.md` de avance (detalles, cuidado, aporte)
+2. Redacción linear (lo que se despliega, mostrando y describiendo, en el *scroll*)
+3. Calidad informativa (este es punto seguro, por lo desarrollado en impreso)
+4. Sacrificios y ganancias en formato digital (en relación al impreso)
+5. Metadatos
+6. Responsividad
+7. Resolución gráfica optimizada 
 
 - - - - - - - -
 
