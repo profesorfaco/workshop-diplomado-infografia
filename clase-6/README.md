@@ -39,6 +39,7 @@ Vía e-mail, Paula les hizo llegar una solicitud respecto de los repositorios de
 | Tapir amazónico | https://github.com/tapir-amazonico/avance | https://tapir-amazonico.github.io/avance | 
 | Tigre de bengala | https://github.com/Tigre-de-Bengala/avance | https://tigre-de-bengala.github.io/avance/ |
 
+**Grulla de cuello blanco** no activo GitHub Pages. **Panda rojo** debe tener un `index.html`, y activar GitHub Pages en caso no lo haya hecho.
 
 - - - - - - - -
 
